@@ -73,6 +73,10 @@ h2 {
 }
 a {
 	color: #948C75;
+  text-decoration: none;
+}
+a:hover {
+  color: #67614E;
 }
 ol li,
 ul li {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sharing stuff
+title:  Welcome to Sandcastle
 author: Kevin
 ---
 
