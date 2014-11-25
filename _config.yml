@@ -1,0 +1,6 @@
+# Site settings
+title: Sandcastle
+
+# Build settings
+markdown: kramdown
+permalink: pretty
