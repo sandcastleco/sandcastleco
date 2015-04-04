@@ -2,10 +2,54 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-	<article>
-		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		<p>{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
-		{{ post.content }}
-	</article>
-{% endfor %}
+<div class="masthead">
+  <h1>Sandcastle</h1>
+  <p>Lorem ipsum dolor sit amet</p>
+</div>
+
+<div class="gallery">
+  <div class="grid grid-align-middle">
+    <div class="col col-6">
+      <figure class="tint">
+        <img src="/img/foster-site.jpg">
+      </figure>
+    </div>
+    <div class="col col-6">
+      <figure class="tint">
+        <img src="/img/insight.jpg">
+      </figure>
+    </div>
+  </div>
+  <div class="grid grid-align-middle">
+    <div class="col col-6">
+      <figure class="tint">
+        <img src="/img/ssg.jpg">
+      </figure>
+    </div>
+    <div class="col col-6">
+    </div>
+  </div>
+</div>
+
+<section class="attention">
+  <p>Sandcastle is a web design studio.</p>
+</section>
+
+<div class="gallery">
+  <div class="grid grid-align-middle">
+    <div class="col col-6">
+      <figure class="tint">
+        <img src="/img/kevin.jpg">
+      </figure>
+    </div>
+    <div class="col col-6">
+      <figure class="tint">
+        <img src="/img/foster.jpg">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<section class="attention">
+  <a href="mailto:hello@sandcastle.co">hello@sandcastle.co</a>
+</section>
