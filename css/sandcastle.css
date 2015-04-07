@@ -184,6 +184,10 @@ section {
  */
 
 .masthead {
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 100;
   text-align: center;
   margin-bottom: 1rem;
@@ -216,7 +220,7 @@ section {
 	height: 30px;
 	margin: 25px;
   cursor: pointer;
-  top: 50px;
+  top: 15px;
   right: 0;
 }
 .menu span {
@@ -279,7 +283,6 @@ section {
 .tint {
 	position: relative;
 	float: left;
-	cursor: pointer;
 }
 .tint:before {
 	content: "";
@@ -295,12 +298,21 @@ section {
 	     -o-transition: background .2s;
 	        transition: background .2s;
 }
-.tint:hover:before {
-	background: none;
-   -moz-transition: background .2s;
--webkit-transition: background .2s;
-     -o-transition: background .2s;
-        transition: background .2s;
+.tint span {
+  font-family: "hwt-artz", sans-serif;
+  font-size: 4rem;
+  position: absolute;
+  -webkit-transform: rotate(-30deg);
+  color: rgba(255,255,255,.5);
+  z-index: 1000;
+}
+.tint .bottom {
+  bottom: 5px;
+  right: -15px;
+}
+.tint .top {
+  top: 5px;
+  left: -15px;
 }
 
 
