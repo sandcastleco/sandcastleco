@@ -1,6 +1,10 @@
 <div class="masthead">
   <div class="brand">
+    {% if page.title == "Home" %}
     <a id="fadeIn" href="/"></a>
+    {% else %}
+    <a href="/">Sandcastle</a>
+    {% endif %}
   </div>
   <a class="menu example5"><span></span></a>
   <ul class="nav">

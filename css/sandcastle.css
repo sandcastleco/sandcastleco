@@ -171,6 +171,8 @@ figure {
   font-weight: 100;
   margin-bottom: 1rem;
   margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "hwt-artz", sans-serif;
 }
 .masthead .brand {
@@ -180,7 +182,7 @@ figure {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 410px;
   height: 100px;
 }
 .nav {
@@ -191,6 +193,10 @@ figure {
   letter-spacing: 2px;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 .nav li {
   margin-bottom: 0px;
@@ -200,8 +206,8 @@ figure {
 @media (min-width: 768px) {
   .nav li {
   	display: inline-block;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
   }
 }
 .menu {
