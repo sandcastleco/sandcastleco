@@ -7,14 +7,14 @@ layout: page
     <div class="col col-6">
       <figure class="tint">
         <img src="/img/kevin.jpg">
-        <span>Kevin</span>
       </figure>
+      <a href="http://twitter.com/kev_mcg"><h2>Kevin</h2></a>
     </div>
     <div class="col col-6">
       <figure class="tint">
         <img src="/img/foster.jpg">
-        <span>Foster</span>
       </figure>
+      <a href="http://twitter.com/foster_stilp"><h2>Foster</h2></a>
     </div>
   </div>
 </div>

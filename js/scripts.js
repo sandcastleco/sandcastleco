@@ -1,6 +1,6 @@
 var main = function() {
   $('.menu').click(function() {
-    $('.nav').slideToggle(300);
+    $('.site-nav').slideToggle(300);
     $(this).toggleClass('open');
   });
   
