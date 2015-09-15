@@ -14,7 +14,7 @@ layout: page
       <figure class="tint">
         <img src="/img/foster.jpg">
       </figure>
-      <a href="http://twitter.com/foster_stilp"><h2>Foster</h2></a>
+      <a href="https://twitter.com/_fosterdouglas"><h2>Foster</h2></a>
     </div>
   </div>
 </div>
