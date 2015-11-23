@@ -6,9 +6,12 @@ function showLinks() {
 window.onload = function() {
   var body = document.getElementById("body");
   var links = document.getElementsByClassName("link");
-  var falt = document.getElementById("flag");
+  var card = document.getElementsByClassName("card");
+  var flag = document.getElementById("flag");
   var canvas = document.getElementById("canvas");
   var logo = document.getElementsByClassName("logo");
+  var button = document.getElementById("button");
+  var heading = document.getElementById("heading");
 
   TweenLite.fromTo(logo, 1, {opacity: 0}, {opacity: 1, ease: Power2.easeOut, onComplete: showLinks});
 
@@ -24,6 +27,13 @@ window.onload = function() {
   for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("mouseout", function() {
       TweenLite.to(flag, 0.3, {fill: "#FFF"});
+    });
+    links[i].addEventListener("click", function() {
+      console.log("click");
+      heading.innerHTML = this.dataset.heading;
+      var color = this.dataset.color;
+      TweenLite.to(card, 0.3, {opacity: 1, backgroundColor: color});
+      TweenLite.to(button, 0.3, {color: color});
     });
   }
 

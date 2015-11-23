@@ -6,11 +6,17 @@ body {
 }
 .logo {
   display: block;
-  margin-top: 135px;
+  margin-top: 100px;
   margin-bottom: 50px;
   max-width: 125px;
   margin-left: auto;
   margin-right: auto;
+}
+#sandcastle {
+  fill: #FFF;
+}
+#flag {
+  fill: #FFF;
 }
 .links .link {
   left: 100;
@@ -50,17 +56,32 @@ body {
 .links .link:nth-child(3) i::after {
   background: $green;
 }
-.bubble {
-  position: absolute;
-  background-color: $white;
-  width: 50px;
-  height: 50px;
-  top: 0;
-  border-radius: 50%;
+.card {
+  opacity: 0;
+  text-align: center;
+  background-color: $red;
+  color: $white;
+  padding: 60px;
+  margin-top: 40px;
 }
-#sandcastle {
-  fill: #FFF;
+.footer {
+  margin-top: 60px;
 }
-#flag {
-  fill: #FFF;
+.footer .fa {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.form-control {
+  border: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: $white;
+  font-size: 1rem;
+}
+.btn-default {
+  border: 0;
+  color: $red;
+  font-weight: bold;
+  font-size: 1rem;
 }
