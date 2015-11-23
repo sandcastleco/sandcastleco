@@ -18,6 +18,7 @@ body {
   text-align: center;
   color: $white;
   font-size: 50px;
+  cursor: pointer;
 }
 .links .link i {
   padding-left: 30px;
@@ -49,12 +50,17 @@ body {
 .links .link:nth-child(3) i::after {
   background: $green;
 }
-/*.links .link:first-child i {
-  border-bottom: 4px solid $red;
+.bubble {
+  position: absolute;
+  background-color: $white;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  border-radius: 50%;
 }
-.links .link:nth-child(2) i {
-  border-bottom: 4px solid $blue;
+#sandcastle {
+  fill: #FFF;
 }
-.links .link:nth-child(3) i {
-  border-bottom: 4px solid $green;
-}*/
+#flag {
+  fill: #FFF;
+}
