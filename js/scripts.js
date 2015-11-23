@@ -1,24 +1,9 @@
-var main = function() {
-  $('.menu').click(function() {
-    $('.site-nav').slideToggle(300);
-    $(this).toggleClass('open');
-  });
-  
-  $(function () {
-      var string = "Sandcastle";
-      var q = jQuery.map(string.split(''), function (letter) {
-          return $('<span>' + letter + '</span>');
-      });
-
-      var dest = $('#fadeIn');
-
-      var c = 0;
-      var i = setInterval(function () {
-          q[c].appendTo(dest).hide().fadeIn(500);
-          c += 1;
-          if (c >= q.length) clearInterval(i);
-      }, 225);
-  });
+function showLinks() {
+  var links = document.getElementsByClassName("link");
+  TweenMax.staggerFromTo(links, 0.5, {opacity: 0, left: 50}, {opacity: 1, left: 0}, 0.2);
 }
 
-$(document).ready(main);
+window.onload = function() {
+  var logo = document.getElementsByClassName("logo");
+  TweenLite.fromTo(logo, 1, {opacity: 0}, {opacity: 1, onComplete: showLinks});
+}
