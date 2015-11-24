@@ -24,8 +24,8 @@ window.onload = function() {
     TweenLite.to(section[0], 1, {height: "60vh", ease: Power2.easeOut});
   }
 
-  function updatePanel(color, heading) {
-    heading.innerHTML = heading;
+  function updatePanel(color, currentHeading) {
+    heading.innerHTML = currentHeading;
     TweenLite.to(section[1], 1, {autoAlpha: 1, backgroundColor: color, ease: Power2.easeOut});
     TweenLite.to("#button", 1, {color: color});
   }
@@ -39,7 +39,7 @@ window.onload = function() {
     links[i].addEventListener("click", function() {
       var color = this.dataset.color;
       var currentHeading = this.dataset.heading;
-      
+
       toggleButton(this);
       updateFlag(color);
       showSocial(color);
