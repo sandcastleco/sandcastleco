@@ -29,10 +29,11 @@ window.onload = function() {
       TweenLite.to(flag, 0.3, {fill: "#FFF"});
     });
     links[i].addEventListener("click", function() {
-      console.log("click");
       heading.innerHTML = this.dataset.heading;
       var color = this.dataset.color;
-      TweenLite.to(section[1], 0.3, {opacity: 1, backgroundColor: color});
+      section[1].style.display = "block";
+      TweenLite.to(section[0], 0.3, {height: "60vh"});
+      TweenLite.to(section[1], 0.3, {opacity: 1, height: "40vh", backgroundColor: color});
       TweenLite.to(button, 0.3, {color: color});
     });
   }

@@ -5,6 +5,7 @@ body {
   max-width: 650px;
 }
 .logo {
+  opacity: 0;
   display: block;
   margin-bottom: 50px;
   max-width: 125px;
@@ -93,9 +94,11 @@ body {
   color: $white;
 }
 .section:first-child {
-  height: 60vh;
+  height: 100vh;
 }
 .section:nth-child(2) {
+  display: none;
+  opacity: 0;
   background-color: $ocean;
-  height: 40vh;
+  height: 0;
 }
