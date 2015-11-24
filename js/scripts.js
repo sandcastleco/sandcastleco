@@ -6,7 +6,7 @@ function showLinks() {
 window.onload = function() {
   var body = document.getElementById("body");
   var links = document.getElementsByClassName("link");
-  var card = document.getElementsByClassName("card");
+  var section = document.getElementsByClassName("section");
   var flag = document.getElementById("flag");
   var canvas = document.getElementById("canvas");
   var logo = document.getElementsByClassName("logo");
@@ -32,7 +32,7 @@ window.onload = function() {
       console.log("click");
       heading.innerHTML = this.dataset.heading;
       var color = this.dataset.color;
-      TweenLite.to(card, 0.3, {opacity: 1, backgroundColor: color});
+      TweenLite.to(section[1], 0.3, {opacity: 1, backgroundColor: color});
       TweenLite.to(button, 0.3, {color: color});
     });
   }
