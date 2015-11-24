@@ -15,25 +15,20 @@ window.onload = function() {
 
   TweenLite.fromTo(logo, 1, {opacity: 0}, {opacity: 1, ease: Power2.easeOut, onComplete: showLinks});
 
-  links[0].addEventListener("mouseover", function() {
-    TweenLite.to(flag, 0.3, {fill: "#D9482B"});
-  });
-  links[1].addEventListener("mouseover", function() {
-    TweenLite.to(flag, 0.3, {fill: "#30A7BF"});
-  });
-  links[2].addEventListener("mouseover", function() {
-    TweenLite.to(flag, 0.3, {fill: "#53A668"});
-  });
   for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("mouseout", function() {
-      TweenLite.to(flag, 0.3, {fill: "#FFF"});
-    });
     links[i].addEventListener("click", function() {
       heading.innerHTML = this.dataset.heading;
       var color = this.dataset.color;
       section[1].style.display = "block";
-      TweenLite.to(section[0], 1, {height: "60vh"});
-      TweenLite.to(section[1], 1, {opacity: 1, height: "40vh", backgroundColor: color, ease: Power2.easeOut});
+      for (var j = 0; j < links.length; j++) {
+        links[j].className = "link col-md-4";
+      }
+      this.className += " on";
+      TweenLite.to(flag, 1, {fill: color});
+      TweenLite.to(".social", 1, {autoAlpha: 1});
+      TweenLite.to(".social-link", 1, {color: color});
+      TweenLite.to(section[0], 1, {height: "60vh", force3D:true, ease: Power2.easeOut});
+      TweenLite.to(section[1], 1, {autoAlpha: 1, force3D:true, height: "40vh", backgroundColor: color, ease: Power2.easeOut});
       TweenLite.to(button, 0.3, {color: color});
     });
   }
