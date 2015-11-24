@@ -32,8 +32,8 @@ window.onload = function() {
       heading.innerHTML = this.dataset.heading;
       var color = this.dataset.color;
       section[1].style.display = "block";
-      TweenLite.to(section[0], 0.3, {height: "60vh"});
-      TweenLite.to(section[1], 0.3, {opacity: 1, height: "40vh", backgroundColor: color});
+      TweenLite.to(section[0], 1, {height: "60vh"});
+      TweenLite.to(section[1], 1, {opacity: 1, height: "40vh", backgroundColor: color, ease: Power2.easeOut});
       TweenLite.to(button, 0.3, {color: color});
     });
   }
