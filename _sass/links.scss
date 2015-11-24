@@ -1,0 +1,40 @@
+.links .link {
+  left: 100;
+  opacity: 0;
+  text-align: center;
+  color: $white;
+  font-size: 50px;
+  cursor: pointer;
+}
+.links .link i {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.links .link i::after {
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  content: '';
+  width: 60%;
+  height: 5px;
+  border-radius: 5px;
+  -webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+  z-index: -1;
+}
+.links .link:first-child i::after {
+  background: $red;
+}
+.links .link:nth-child(2) i::after {
+  background: $blue;
+}
+.links .link:nth-child(3) i::after {
+  background: $green;
+}
+.links .link.on i::after,
+.links .link:hover i::after {
+  height: 100%;
+}
