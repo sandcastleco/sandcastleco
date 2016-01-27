@@ -2,6 +2,7 @@ window.onload = function() {
   var links = document.getElementsByClassName("link");
   var section = document.getElementsByClassName("section");
   var heading = document.getElementById("heading");
+  var logo = document.getElementById("logo");
 
   function updateFlag(color) {
     TweenLite.to("#flag", 1, {fill: color});
@@ -24,6 +25,10 @@ window.onload = function() {
     TweenLite.to(section[0], 1, {height: "60vh", ease: Power2.easeOut});
   }
 
+  function hidePanel() {
+    TweenLite.to(section[0], 1, {height: "100vh"});
+  }
+
   function updatePanel(color, currentHeading) {
     heading.innerHTML = currentHeading;
     TweenLite.to(section[1], 1, {autoAlpha: 1, backgroundColor: color, ease: Power2.easeOut});
@@ -42,9 +47,15 @@ window.onload = function() {
 
       toggleButton(this);
       updateFlag(color);
-      showSocial(color);
+      showSocial("#FFF");
       showPanel();
       updatePanel(color, currentHeading);
     });
   }
+
+  logo.addEventListener("click", function() {
+    hidePanel();
+    updateFlag("#FFF");
+    toggleButton();
+  });
 }
