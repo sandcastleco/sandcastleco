@@ -45,18 +45,38 @@ section {
   min-height: 100vh;
   height: auto;
 }
-.section-cover h1 {
+.section-cover h1,
+.section-half h1 {
   font-weight: normal;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.section-half {
+  min-height: 50vh;
+  height: auto;
+}
+.section-cover.section-white {
+  border-bottom: 1px solid $sand;
+}
 .section-white {
   background-color: $white;
   color: $red;
-  border-bottom: 1px solid $sand;
+}
+.section-cover a {
+  color: $sand;
 }
 .section-white a {
   color: $red;
+}
+.section-cover a:hover {
+  color: $sand;
+  opacity: .7;
+  text-decoration: none;
+}
+.section-white a:hover {
+  color: $red;
+  opacity: .5;
+  text-decoration: none;
 }
 .section-home {
   padding-top: 30px;
