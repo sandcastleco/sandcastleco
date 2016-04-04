@@ -1,6 +1,6 @@
 window.onload = function() {
   var links = document.getElementsByClassName("link");
-  var section = document.getElementsByClassName("section");
+  var section = document.getElementsByTagName("section");
   var heading = document.getElementById("heading");
   var logo = document.getElementById("logo");
 
@@ -37,7 +37,7 @@ window.onload = function() {
 
   var tl = new TimelineLite();
 
-  tl.to(".logo", 1, {opacity: 1, ease: Power2.easeOut});
+  tl.fromTo(".logo", 1, {opacity: 0}, {opacity: 1, ease: Power2.easeOut});
   tl.staggerFromTo(links, 0.5, {opacity: 0, left: 50}, {opacity: 1, left: 0, ease: Power2.easeOut}, 0.2, "-=0.3");
 
   for (var i = 0; i < links.length; i++) {

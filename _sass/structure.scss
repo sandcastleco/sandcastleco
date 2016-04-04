@@ -4,6 +4,13 @@ body {
 img {
   width: 100%;
 }
+.container-narrow {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px
+}
 .center-block {
   float: none;
 }
@@ -28,16 +35,35 @@ img {
  * Section
  */
 
-.section {
+section {
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: $white;
 }
-.section:first-child {
+.section-cover {
+  min-height: 100vh;
+  height: auto;
+}
+.section-cover h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.section-white {
+  background-color: $white;
+  color: $red;
+}
+.section-white a {
+  color: $red;
+}
+.section-home {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-home:first-child {
   height: 100vh;
 }
-.section:nth-child(2) {
+.section-home:nth-child(2) {
   visibility: hidden;
   display: none;
   background-color: $ocean;

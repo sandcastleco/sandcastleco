@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="section">
+<section class="section-home">
     <div class="social">
       <a class="social-link" target="_blank" href="http://twitter.com/sandcastleco"><i class="fa fa-twitter"></i></a>
       <a class="social-link" href="mailto:hay@sandcastle.co"><i class="fa fa-envelope"></i></a>
@@ -24,11 +24,13 @@ title: Home
         </div>
       </div>
     </div>
-</div>
-<div class="section">
+</section>
+<section class="section-home">
   <div class="card">
     <h1 id="heading">A tiny studio.</h1>
     <p class="lead">Sandcastle is coming soon.<br>Sign up for updates.</p>
     {% include form.html %}
   </div>
-</div>
+</section>
+
+{% include animation-scripts.html %}
