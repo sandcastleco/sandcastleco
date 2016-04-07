@@ -1,6 +1,3 @@
-body {
-  background-color: $ocean;
-}
 img {
   width: 100%;
 }
@@ -10,6 +7,10 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px
+}
+.center .logo {
+  margin-left: auto;
+  margin-right: auto;
 }
 .center-block {
   float: none;
@@ -79,6 +80,7 @@ section {
   text-decoration: none;
 }
 .section-home {
+  background-color: $ocean;
   padding-top: 30px;
   padding-bottom: 30px;
 }

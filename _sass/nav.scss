@@ -1,0 +1,120 @@
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  z-index: 10;
+}
+header .logo {
+  max-width: 75px;
+}
+.menu-button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  z-index: 10;
+  width: 55px;
+  height: 55px;
+  border: 3px solid $sand;
+  border-radius: 10px;
+}
+.menu-button-shape {
+  height: 100%;
+  transition: .25s transform;
+}
+.menu-button-shape.open {
+  transform: rotate(135deg);
+}
+.menu-button-bar {
+  position: relative;
+  top: 50%;
+  display: block;
+  height: 3px;
+  width: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: $sand;
+  transform: translateY(-50%);
+}
+.menu-button-bar:nth-child(2) {
+  transform: translateY(-150%) rotate(90deg);
+}
+.menu-button.home {
+  border-color: $ocean;
+}
+.menu-button.home .menu-button-bar {
+  background-color: $ocean;
+}
+.menu-button.green {
+  border-color: $green;
+}
+.menu-button.green .menu-button-bar {
+  background-color: $green;
+}
+.menu-button.red {
+  border-color: $red;
+}
+.menu-button.red .menu-button-bar {
+  background-color: $red;
+}
+.menu-button.blue {
+  border-color: $blue;
+}
+.menu-button.blue .menu-button-bar {
+  background-color: $blue;
+}
+
+.navigation {
+  width: 100%;
+  position: fixed;
+  bottom: -100%;
+  right: 0;
+  border-top: 3px solid $sand;
+  -webkit-backdrop-filter: blur(100px);
+  background-color: $white;
+  transition: .25s bottom;
+}
+.navigation.open {
+  visibility: visible;
+}
+.nav-list {
+  margin-left: 60px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.nav-list li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.nav-list li a {
+  display: inline-block;
+  text-align: center;
+  border: 3px solid $sand;
+  border-radius: 10px;
+  color: $sand;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  width: 100%;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+}
+.nav-list .active {
+  color: $white;
+}
+.red .active {
+  background-color: $red;
+  border-color: $red;
+}
+.green .active {
+  background-color: $green;
+  border-color: $green;
+}
+.blue .active {
+  background-color: $blue;
+  border-color: $blue;
+}

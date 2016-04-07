@@ -10,7 +10,6 @@ body {
   font-family: "proxima-nova-soft", sans-serif;
   font-size: 1em;
   line-height: 1.35;
-  color: $white;
 }
 .games {
   color: $red;
@@ -40,15 +39,6 @@ h2 {
 }
 ul {
   padding-left: 20px;
-}
-a {
-  color: $white;
-  transition: opacity .3s;
-}
-a:hover {
-  color: $white;
-  opacity: .8;
-  transition: opacity .3s;
 }
 ol {
   padding-left: 30px;

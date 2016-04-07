@@ -1,1 +1,15 @@
-
+<div class="menu-button {{ page.theme }}">
+  <div class="menu-button-shape">
+    <span class="menu-button-bar"></span>
+    <span class="menu-button-bar"></span>
+  </div>
+</div>
+<nav class="navigation">
+    <ul class="nav-list {{ page.theme }}">
+      <li><a {% if page.url == '/games/' %}class="active"{% endif %} href="/games">Games</a></li>
+      <li><a {% if page.url == '/web/' %}class="active"{% endif %} href="/web">Web</a></li>
+      <li><a {% if page.url == '/studio/' %}class="active"{% endif %} href="/studio">Studio</a></li>
+      <li><a {% if page.url == '/about/' %}class="active"{% endif %} href="/about">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+</nav>

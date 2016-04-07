@@ -1,5 +1,6 @@
 ---
 layout: default
+theme: green
 ---
 
 <div class="section-cover section-white">
@@ -54,18 +55,20 @@ layout: default
 
 <section class="section-cover">
   <div class="container-narrow">
-    <h1><a href="mailto:sandcastle@sandcastle.co">Get in touch.</a> We'll have some tea, make a plan, and take care of everything you need.</h1>
+    <h1>Get in touch. We'll have some tea, make a plan, and take care of everything you need.</h1>
     <div>
-      <a class="btn btn-red" href="/work"><h1>Check out some of our projects.</h1></a>
+      <a class="btn btn-red" href="/work"><h1>Check out some of our projects</h1></a>
     </div>
     <div>
-      <a class="btn btn-green" href="mailto:sandcastle@sandcastle.co"><h1>Say hi.</h1></a>
+      <a class="btn btn-green" href="mailto:sandcastle@sandcastle.co"><h1>Send us an email</h1></a>
     </div>
     <div>
-      <a class="btn btn-sand" href="#"><h1>Give us a call any time.</h1></a>
+      <a class="btn btn-sand" href="#"><h1>Give us a call any time</h1></a>
     </div>
     <h1>We can't wait to make the web more awesome together.</h1>
     <h1 class="text-center">Love,</h1>
-    {% include logo.html %}
+    <div class="center">
+      {% include logo.html fill="white" %}
+    </div>
   </div>
 </section>

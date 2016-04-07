@@ -1,0 +1,71 @@
+.feature {
+  padding: 20px;
+  color: $white;
+  text-align: center;
+}
+.feature-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.feature-sub {
+  height: 30vh;
+  min-height: 125px;
+  float: left;
+  border: 3px solid $white;
+  border-top-width: 6px;
+  border-bottom-width: 6px;
+  width: 33.33333%;
+}
+.sub-features a:first-child .feature-sub {
+  border-left-width: 6px;
+}
+.sub-features a:last-child .feature-sub {
+  border-right-width: 6px;
+}
+.feature h1,
+.feature h2 {
+  margin-top: .5rem;
+  font-weight: normal;
+}
+.feature-sand {
+  background-color: $sand;
+}
+.feature-ocean {
+  background-color: $ocean;
+}
+.feature-red {
+  background-color: $red;
+}
+.feature-blue {
+  background-color: $blue;
+}
+.feature-header {
+  background: url("/img/background.jpg");
+  background-size: cover;
+  height: 70vh;
+  min-height: 250px;
+}
+.feature-header a {
+  padding: 10px;
+  display: inline-block;
+  border: 3px solid $white;
+  border-radius: 10px;
+  margin-top: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: $white;
+  opacity: .8;
+  transition: .25s opacity;
+}
+.feature-header a:hover {
+  opacity: 1;
+  text-decoration: none;
+  transition: .25s opacity;
+}
+.feature-sub .logo {
+  max-width: 28px;
+}
+.feature i {
+  font-size: 2rem;
+}
