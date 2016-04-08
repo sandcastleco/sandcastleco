@@ -39,15 +39,20 @@
   // Keeps the section from collapsing on short screens
   min-height: 300px;
 }
-@media(min-height: 450px) {
+@media(min-height: 480px) {
   .feature-main {
     height: 75vh;
   }
 }
-@media (min-width: 1090px) {
+@media (min-width: 992px) {
   .feature-main {
     height: 100vh;
     float: left;
+    width: 68%;
+  }
+}
+@media (min-width: 1200px) {
+  .feature-main {
     width: 72%;
   }
 }
@@ -55,17 +60,33 @@
   margin-top: 1.25rem;
   font-size: 1.1rem;
 }
+.feature-main .fa {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 // Feature list
 
 .feature-list {
-  max-width: 760px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }
-@media(min-width: 1090px) {
+@media(min-width: 680px) {
+  .feature-list {
+    max-width: 760px
+  }
+}
+@media(min-width: 992px) {
   .feature-list {
     float: left;
+    width: 32%;
+    max-width: 100%;
+  }
+}
+@media(min-width: 1200px) {
+  .feature-list {
     width: 28%;
   }
 }
@@ -73,47 +94,39 @@
 // Feature list items
 
 .feature-list .feature {
-  margin: 3vh;
+  display: block;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
   margin-left: auto;
   margin-right: auto;
   padding: 1.2rem;
+  // Keeps them from collapsing
   min-height: 125px;
+  // Keeps them from getting too tall
   max-height: 150px;
-  max-width: 300px;
   height: 21.25vh;
+  // Keeps them from getting too wide
+  max-width: 300px;
   border-radius: 10px;
+}
+@media(min-width: 992px) {
+  .feature-list .feature {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+.feature-list .feature:hover {
+  color: $white;
 }
 .feature-list .feature .logo {
   max-width: 50px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .feature-list .feature .logo {
     max-width: 75px;
-  }
-}
-@media(min-width: 680px) {
-  .feature-list .feature {
-    max-width: 100%;
-    margin-left: 3vh;
-    margin-right: 3vh;
-    margin-top: 0;
-  }
-  .feature-list a {
-    display: block;
-    float: left;
-    width: 50%;
-  }
-}
-@media(min-width: 1090px) {
-  .feature-list .feature {
-    margin: 3vh;
-    max-height: 21.25vh;
-  }
-}
-@media(min-width: 1090px) {
-  .feature-list a {
-    float: none;
-    width: 100%;
   }
 }
 .feature-list .feature h2 {
@@ -123,10 +136,6 @@
 }
 .feature-list .feature p {
   font-style: italic;
-}
-.feature-main .fa {
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .feature .fa {
   font-size: 2.4rem;
@@ -141,7 +150,7 @@
 }
 @media (min-width: 1200px) {
   .feature .fa {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
   .feature .row .col-xs-8 {
     padding-left: 0;
