@@ -1,65 +1,8 @@
+// Feature
+
 .feature {
   color: $white;
   text-align: center;
-}
-.feature-main {
-  padding-left: 15px;
-  padding-right: 15px;
-  height: 100vh;
-  min-height: 300px;
-}
-@media(min-width: 768px) {
-  .feature-main {
-    height: 60vh;
-  }
-}
-@media(min-width: 980px) {
-  .feature-main {
-    height: 100vh;
-    float: left;
-    width: 70%;
-  }
-  .feature-list {
-    float: left;
-    width: 30%;
-  }
-}
-@media(min-width: 768px) {
-  .feature-list a {
-    display: block;
-    float: left;
-    width: 50%;
-  }
-}
-@media(min-width: 980px) {
-  .feature-list a {
-    float: none;
-    width: 100%;
-  }
-}
-.feature-list .feature {
-  margin: 3vh;
-  padding: 20px;
-  min-height: 125px;
-  height: 21.25vh;
-  border-radius: 10px;
-}
-.feature-content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.feature h1,
-.feature h2 {
-  margin-top: .5rem;
-  font-weight: normal;
-}
-.feature-list .feature h2 {
-  font-weight: bold;
-  margin-top: 0;
-}
-.feature-list .feature p {
-  font-style: italic;
 }
 .feature-sand {
   background-color: $sand;
@@ -76,25 +19,131 @@
 .feature-green {
   background-color: $green;
 }
+.feature-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.feature h1,
+.feature h2 {
+  margin-top: .5rem;
+  font-weight: normal;
+}
+
+// Main Feature
+
+.feature-main {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100vh;
+  // Keeps the section from collapsing on short screens
+  min-height: 300px;
+}
+@media(min-height: 450px) {
+  .feature-main {
+    height: 75vh;
+  }
+}
+@media (min-width: 1090px) {
+  .feature-main {
+    height: 100vh;
+    float: left;
+    width: 72%;
+  }
+}
 .feature-main .btn {
-  padding: 10px 20px;
-  display: inline-block;
-  border: 3px solid $white;
-  border-radius: 10px;
   margin-top: 1.25rem;
   font-size: 1.1rem;
+}
+
+// Feature list
+
+.feature-list {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 1090px) {
+  .feature-list {
+    float: left;
+    width: 28%;
+  }
+}
+
+// Feature list items
+
+.feature-list .feature {
+  margin: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.2rem;
+  min-height: 125px;
+  max-height: 150px;
+  max-width: 300px;
+  height: 21.25vh;
+  border-radius: 10px;
+}
+.feature-list .feature .logo {
+  max-width: 50px;
+}
+@media (min-width: 768px) {
+  .feature-list .feature .logo {
+    max-width: 75px;
+  }
+}
+@media(min-width: 680px) {
+  .feature-list .feature {
+    max-width: 100%;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 0;
+  }
+  .feature-list a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+}
+@media(min-width: 1090px) {
+  .feature-list .feature {
+    margin: 3vh;
+    max-height: 21.25vh;
+  }
+}
+@media(min-width: 1090px) {
+  .feature-list a {
+    float: none;
+    width: 100%;
+  }
+}
+.feature-list .feature h2 {
+  font-size: 1.1rem;
   font-weight: bold;
-  color: $white;
+  margin-top: 0;
+}
+.feature-list .feature p {
+  font-style: italic;
 }
 .feature-main .fa {
   margin-left: 20px;
   margin-right: 20px;
 }
 .feature .fa {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 .feature .row,
-.feature .row .col-xs-3,
-.feature .row .col-xs-9 {
+.feature .row .col-xs-4,
+.feature .row .col-xs-8 {
   height: 100%;
+}
+.feature .row .col-xs-4 {
+  padding-right: 0;
+}
+@media (min-width: 1200px) {
+  .feature .fa {
+    font-size: 2.8rem;
+  }
+  .feature .row .col-xs-8 {
+    padding-left: 0;
+  }
 }

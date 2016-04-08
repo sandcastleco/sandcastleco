@@ -7,12 +7,12 @@ $(document).ready(function() {
   var navHeight = $nav.outerHeight();
 
   function showNav() {
-    $body.css('padding-bottom', navHeight + 'px');
+    //$body.css('padding-bottom', navHeight + 'px');
     $nav.css('bottom', 0);
   };
 
   function hideNav() {
-    $body.css('padding-bottom', 0);
+    //$body.css('padding-bottom', 0);
     $nav.css('bottom', -navHeight + 'px');
   };
 
