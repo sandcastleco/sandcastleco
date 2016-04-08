@@ -71,9 +71,6 @@ header .logo {
   position: fixed;
   bottom: -100%;
   right: 0;
-  border-top: 3px solid $sand;
-  -webkit-backdrop-filter: blur(100px);
-  background-color: $white;
   transition: .25s bottom;
 }
 .navigation.open {

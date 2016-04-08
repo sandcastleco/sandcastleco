@@ -1,34 +1,35 @@
 .feature {
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: $white;
   text-align: center;
+}
+.feature-main {
+  float: left;
+  width: 70%;
+  height: 100vh;
+}
+.feature-list {
+  float: left;
+  width: 30%;
+}
+.feature-list .feature {
+  margin: 3vh;
+  padding: 30px;
+  height: 21.25vh;
+  border-radius: 10px;
 }
 .feature-content {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.feature-header > .feature-content {
-  top: 30%;
-}
-.sub-features {
-  width: 100%;
-  position: absolute;
-  bottom: 80px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: rgba($black, .7);
-}
-.feature-sub {
-  border-radius: 10px;
-  height: 25vh;
-  min-height: 125px;
-}
 .feature h1,
 .feature h2 {
   margin-top: .5rem;
   font-weight: normal;
+}
+.feature-list .feature h2 {
+  font-weight: bold;
+  margin-top: 0;
 }
 .feature-sand {
   background-color: $sand;
@@ -46,19 +47,11 @@
   background-color: $green;
 }
 .feature-header {
-  background: url('/img/background.jpg');
-  background-size: cover;
   position: relative;
-  text-align: right;
   height: 100vh;
   min-height: 250px;
 }
-.feature-header .feature-content {
-  max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.feature-header .btn {
+.feature-main .btn {
   padding: 10px;
   display: inline-block;
   border: 3px solid $white;
@@ -70,14 +63,20 @@
   opacity: .8;
   transition: .25s opacity;
 }
-.feature-header .btn:hover {
+.feature-main .btn:hover {
   opacity: 1;
   text-decoration: none;
   transition: .25s opacity;
 }
-.feature-sub .logo {
-  max-width: 28px;
+.feature-main .fa {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.feature i {
-  font-size: 2rem;
+.feature .fa {
+  font-size: 2.2rem;
+}
+.feature .row,
+.feature .row .col-md-3,
+.feature .row .col-md-9 {
+  height: 100%;
 }
