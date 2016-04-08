@@ -42,10 +42,10 @@ header .logo {
   transform: translateY(-150%) rotate(90deg);
 }
 .menu-button.home {
-  border-color: $sand;
+  border-color: $white;
 }
 .menu-button.home .menu-button-bar {
-  background-color: $sand;
+  background-color: $white;
 }
 .menu-button.green {
   border-color: $green;
@@ -65,7 +65,6 @@ header .logo {
 .menu-button.blue .menu-button-bar {
   background-color: $blue;
 }
-
 .navigation {
   width: 100%;
   position: fixed;
@@ -89,9 +88,9 @@ header .logo {
 .nav-list li a {
   display: inline-block;
   text-align: center;
-  border: 3px solid $sand;
+  border: 3px solid $white;
   border-radius: 10px;
-  color: $sand;
+  color: $white;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 10px 25px;
