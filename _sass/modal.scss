@@ -1,0 +1,12 @@
+.modal {
+  color: $white;
+}
+.modal-backdrop {
+  background-color: $blue;
+}
+.modal-backdrop.in {
+  opacity: 1;
+}
+.modal .btn-close {
+  float: right;
+}

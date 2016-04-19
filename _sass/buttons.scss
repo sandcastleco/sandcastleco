@@ -9,9 +9,11 @@
   border: 3px solid $white;
   border-radius: 10px;
   font-weight: bold;
+  background-color: transparent;
   color: $white;
 }
-.btn-ghost:hover {
+.btn-ghost:hover,
+.btn-ghost:focus {
   color: $white;
 }
 .btn h1 {

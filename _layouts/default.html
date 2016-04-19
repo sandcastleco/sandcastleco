@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
   {% include head.html %}
 
   <body id="body" class="{{ page.theme }}">
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="button" class="glyphicon glyphicon-remove btn btn-ghost btn-close" data-dismiss="modal"></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 center-block">
+            <h1>A tiny studio made of sand</h1>
+            <p class="lead">Sandcastle is Kevin McGillivray and Foster Douglas. <br>We care about creativity, mindfulness, and education.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="button" class="glyphicon glyphicon-remove btn btn-ghost btn-close" data-dismiss="modal"></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Contact Sandcastle</h1>
+            <p>If you're interested in chatting about games, education, or a web development project, send us a message any time. We'd love to work with you.</p>
+            <a href="https://twitter.com/sandcastleco" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/sandcastleco" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label class="sr-only" for="name-input">Name</label>
+                <input type="text" class="form-control" id="name-input" name="name" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email-input">Email</label>
+                <input type="email" class="form-control" id="email-input" name="email" placeholder="Your email">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="message-input">Message</label>
+                <textarea class="form-control" id="message-input" name="message" placeholder="Your message" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-ghost">Send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     {% include header.html %}
 

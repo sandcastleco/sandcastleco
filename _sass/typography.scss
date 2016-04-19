@@ -37,6 +37,14 @@ h1 {
 h2 {
   font-size: 1.2rem;
 }
+a {
+  color: rgba($white, 0.5);
+  transition: .3s color;
+}
+a:hover {
+  color: rgba($white, 1);
+  transition: .3s color;
+}
 ul {
   padding-left: 20px;
 }
@@ -67,4 +75,8 @@ hr {
   color: $sand;
   font-weight: 300;
   font-size: 1.3rem;
+}
+.fa {
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
