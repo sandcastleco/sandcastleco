@@ -5,9 +5,11 @@
   text-align: center;
 }
 .feature-sand {
-  background-color: rgba($sand, 0.3);
-  color: $sand;
   border-right: 4px solid $sand;
+}
+.feature-list .feature-sand:hover {
+  background-color: rgba($sand, 0.1);
+  transition: .3s background-color;
 }
 .feature-list .feature-sand .logo #sandcastle,
 .feature-list .feature-sand .logo #flag {
@@ -19,18 +21,12 @@
   fill: $sand;
   transition: .3s fill;
 }
-.feature-ocean {
-  background-color: rgba($ocean, 0.3);
-  border-right: 4px solid $ocean;
-}
 .feature-red {
-  background-color: rgba($red, 0.3);
-  color: $red;
   border-right: 4px solid $red;
 }
 .feature-list .feature-red:hover {
-  border-color: $red;
-  transition: .3s border-color;
+  background-color: rgba($red, 0.1);
+  transition: .3s background-color;
 }
 .feature-list .feature-red .fa {
   transition: .3s color;
@@ -44,6 +40,10 @@
   color: $blue;
   border-right: 4px solid $blue;
 }
+.feature-list .feature-blue:hover {
+  background-color: rgba($blue, 0.1);
+  transition: .3s background-color;
+}
 .feature-list .feature-blue .fa {
   transition: .3s color;
 }
@@ -55,6 +55,10 @@
   background-color: rgba($green, 0.3);
   color: $green;
   border-right: 4px solid $green;
+}
+.feature-list .feature-green:hover {
+  background-color: rgba($green, 0.1);
+  transition: .3s background-color;
 }
 .feature-list .feature-green .fa {
   transition: .3s color;
@@ -156,6 +160,7 @@
   color: $white;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: .3s background-color;
 }
 @media(min-width: 992px) {
   .feature-list .feature {
@@ -176,7 +181,7 @@
 }
 @media (min-width: 992px) {
   .feature-list .feature .logo {
-    max-width: 75px;
+    max-width: 60px;
   }
 }
 .feature-list .feature h2 {
