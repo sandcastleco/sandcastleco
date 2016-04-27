@@ -6,6 +6,7 @@
 }
 .feature-sand {
   background-color: rgba($sand, 0.3);
+  color: $sand;
   border: 3px solid $sand;
 }
 .feature-red .fa {
@@ -17,10 +18,12 @@
 }
 .feature-red {
   background-color: rgba($red, 0.3);
+  color: $red;
   border: 3px solid $red;
 }
 .feature-blue {
   background-color: rgba($blue, 0.3);
+  color: $blue;
   border: 3px solid $blue;
 }
 .feature-blue .fa {
@@ -28,6 +31,7 @@
 }
 .feature-green {
   background-color: rgba($green, 0.3);
+  color: $green;
   border: 3px solid $green;
 }
 .feature-green .fa {
@@ -110,6 +114,7 @@
 
 .feature-list .feature {
   display: block;
+  background-color: rgba(#000, 0.1);
   margin-top: 4vh;
   margin-bottom: 4vh;
   margin-left: auto;
