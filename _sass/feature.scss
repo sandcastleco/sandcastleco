@@ -175,6 +175,7 @@
 .feature-list .feature:hover,
 .feature-list .feature:focus {
   color: $white;
+  outline: none;
 }
 .feature-list .feature .logo {
   max-width: 50px;
