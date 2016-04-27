@@ -9,9 +9,6 @@
   color: $sand;
   border: 3px solid $sand;
 }
-.feature-red .fa {
-  color: $red;
-}
 .feature-ocean {
   background-color: rgba($ocean, 0.3);
   border: 3px solid $ocean;
@@ -26,16 +23,10 @@
   color: $blue;
   border: 3px solid $blue;
 }
-.feature-blue .fa {
-  color: $blue;
-}
 .feature-green {
   background-color: rgba($green, 0.3);
   color: $green;
   border: 3px solid $green;
-}
-.feature-green .fa {
-  color: $green;
 }
 .feature-content {
   position: relative;
@@ -127,6 +118,7 @@
   height: 20vh;
   // Keeps them from getting too wide
   max-width: 300px;
+  color: $white;
   border-radius: 10px;
 }
 @media(min-width: 992px) {
