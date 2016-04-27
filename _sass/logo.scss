@@ -26,12 +26,7 @@
 .logo #flag.home {
   fill: $green;
 }
-.logo .white {
-  fill: $white !important;
-}
-.logo #flag.sand {
-  fill: $sand;
-}
-.logo #sandcastle.sand {
-  fill: $sand;
+.logo #flag.white,
+.logo #sandcastle.white {
+  fill: $white;
 }

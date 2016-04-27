@@ -7,31 +7,42 @@
 .feature-sand {
   background-color: rgba($sand, 0.3);
   color: $sand;
-  //border: 3px solid $sand;
+  border-right: 4px solid $sand;
+}
+.feature-list .feature-sand .logo #sandcastle,
+.feature-list .feature-sand .logo #flag {
+  fill: $white;
+  transition: .3s fill;
+}
+.feature-list .feature-sand:hover .logo #sandcastle,
+.feature-list .feature-sand:hover .logo #flag {
+  fill: $sand;
+  transition: .3s fill;
 }
 .feature-ocean {
   background-color: rgba($ocean, 0.3);
-  border: 3px solid $ocean;
+  border-right: 4px solid $ocean;
 }
 .feature-red {
   background-color: rgba($red, 0.3);
   color: $red;
-  border: 3px solid $red;
-  transition: .3s border-color;
+  border-right: 4px solid $red;
 }
 .feature-list .feature-red:hover {
   border-color: $red;
   transition: .3s border-color;
 }
+.feature-list .feature-red .fa {
+  transition: .3s color;
+}
+.feature-list .feature-red:hover .fa {
+  color: $red;
+  transition: .3s color;
+}
 .feature-blue {
   background-color: rgba($blue, 0.3);
   color: $blue;
-  border: 3px solid $blue;
-  transition: .3s border-color;
-}
-.feature-list .feature-blue:hover {
-  border-color: $blue;
-  transition: .3s border-color;
+  border-right: 4px solid $blue;
 }
 .feature-list .feature-blue .fa {
   transition: .3s color;
@@ -43,7 +54,14 @@
 .feature-green {
   background-color: rgba($green, 0.3);
   color: $green;
-  border: 3px solid $green;
+  border-right: 4px solid $green;
+}
+.feature-list .feature-green .fa {
+  transition: .3s color;
+}
+.feature-list .feature-green:hover .fa {
+  color: $green;
+  transition: .3s color;
 }
 .feature-content {
   position: relative;
@@ -122,7 +140,7 @@
 
 .feature-list .feature {
   display: block;
-  background-color: rgba(#000, 0.1);
+  background-color: rgba(#FFF, 0.1);
   margin-top: 4vh;
   margin-bottom: 4vh;
   margin-left: auto;
@@ -135,9 +153,9 @@
   height: 20vh;
   // Keeps them from getting too wide
   max-width: 300px;
-  border: 2px solid $white;
   color: $white;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 @media(min-width: 992px) {
   .feature-list .feature {
