@@ -23,6 +23,7 @@ header .logo {
   height: 100%;
   transition: .25s transform;
 }
+.btn-close .menu-button-shape,
 .menu-button-shape.open {
   transform: rotate(135deg);
 }
@@ -35,7 +36,7 @@ header .logo {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  background-color: $sand;
+  background-color: $white;
   transform: translateY(-50%);
 }
 .menu-button-bar:nth-child(2) {
