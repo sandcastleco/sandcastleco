@@ -7,7 +7,7 @@
 .feature-sand {
   background-color: rgba($sand, 0.3);
   color: $sand;
-  border: 3px solid $sand;
+  //border: 3px solid $sand;
 }
 .feature-ocean {
   background-color: rgba($ocean, 0.3);
@@ -17,16 +17,28 @@
   background-color: rgba($red, 0.3);
   color: $red;
   border: 3px solid $red;
-  transition: .3s background-color;
+  transition: .3s border-color;
 }
 .feature-list .feature-red:hover {
-  background-color: rgba($red, 0.3);
-  transition: .3s background-color;
+  border-color: $red;
+  transition: .3s border-color;
 }
 .feature-blue {
   background-color: rgba($blue, 0.3);
   color: $blue;
   border: 3px solid $blue;
+  transition: .3s border-color;
+}
+.feature-list .feature-blue:hover {
+  border-color: $blue;
+  transition: .3s border-color;
+}
+.feature-list .feature-blue .fa {
+  transition: .3s color;
+}
+.feature-list .feature-blue:hover .fa {
+  color: $blue;
+  transition: .3s color;
 }
 .feature-green {
   background-color: rgba($green, 0.3);
@@ -123,6 +135,7 @@
   height: 20vh;
   // Keeps them from getting too wide
   max-width: 300px;
+  border: 2px solid $white;
   color: $white;
   border-radius: 10px;
 }
