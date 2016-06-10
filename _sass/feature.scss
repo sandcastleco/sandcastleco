@@ -87,6 +87,12 @@
   // Keeps the section from collapsing on short screens
   min-height: 300px;
 }
+.feature-main h1 {
+  color: $white;
+}
+.feature-main .logo {
+  max-width: 115px;
+}
 @media(min-height: 480px) {
   .feature-main {
     height: 75vh;

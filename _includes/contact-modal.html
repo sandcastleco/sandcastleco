@@ -1,0 +1,40 @@
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="row">
+      <div class="col-xs-12">
+        <button type="button" class="btn btn-close" data-dismiss="modal">
+          <div class="menu-button-shape">
+            <span class="menu-button-bar"></span>
+            <span class="menu-button-bar"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Contact Sandcastle</h1>
+        <p>If you're interested in chatting about games, education, or a web development project, send us a message any time. We'd love to work with you.</p>
+        <a href="https://twitter.com/sandcastleco" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/sandcastleco" target="_blank"><i class="fa fa-github"></i></a>
+      </div>
+      <div class="col-md-6">
+        <form action="https://getsimpleform.com/messages?form_api_token=c93c6644db4b49b6e6bd5df28db8a3dc" method="post">
+          <input type='hidden' name='redirect_to' value='http://sandcastle.co/thank-you' />
+          <div class="form-group">
+            <label class="sr-only" for="name-input">Name</label>
+            <input type="text" class="form-control" id="name-input" name="name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="email-input">Email</label>
+            <input type="email" class="form-control" id="email-input" name="email" placeholder="Your email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="message-input">Message</label>
+            <textarea class="form-control" id="message-input" name="message" placeholder="Your message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-ghost">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,12 +1,20 @@
 .logo {
   display: block;
-  max-width: 120px;
+  max-width: 100px;
+}
+@media (min-width: 768px) {
+  .logo {
+    max-width: 85px;
+  }
 }
 .logo:hover {
   cursor: pointer;
 }
 .logo .green {
   fill: $green;
+}
+.logo .sand {
+  fill: $sand;
 }
 .logo .red {
   fill: $red;
@@ -24,7 +32,7 @@
   fill: $white;
 }
 .logo #flag.home {
-  fill: $green;
+  fill: $sand;
 }
 .logo #flag.white,
 .logo #sandcastle.white {
