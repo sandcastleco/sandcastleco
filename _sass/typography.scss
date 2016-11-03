@@ -1,9 +1,9 @@
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 body {
@@ -40,7 +40,7 @@ h2 {
   font-size: 1.2rem;
 }
 a {
-  color: rgba($white, 0.5);
+  color: $white;
   transition: .3s color;
 }
 a:hover {

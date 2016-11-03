@@ -3,18 +3,32 @@
   font-size: 1rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
+  transition: .3s all;
+}
+.btn:hover {
+  transition: .3s all;
+}
+.btn-plain:hover {
+  color: $white;
+}
+.btn-education:hover {
+  background-color: $green;
+}
+.btn-games:hover {
+  background-color: $red;
+}
+.btn-web:hover {
+  background-color: $blue;
 }
 .btn-ghost {
   padding: 10px 20px;
   border: 2px solid $white;
-  border-radius: 10px;
-  font-weight: bold;
   background-color: transparent;
   color: $white;
 }
 .btn-ghost:hover,
 .btn-ghost:focus {
-  color: $white;
+  color: $green;
   outline: none;
 }
 .btn h1 {
@@ -22,6 +36,12 @@
   margin-bottom: 0;
   margin-left: 15px;
   margin-right: 15px;
+}
+.btn-primary {
+  background-color: $ocean;
+}
+.btn-primary:hover {
+  background-color: $ocean;
 }
 .btn-default {
   color: $red;
@@ -51,4 +71,7 @@
   border: 2px solid $white;
   background-color: transparent;
   border-radius: 10px;
+}
+.btn-wide {
+  width: 100%;
 }

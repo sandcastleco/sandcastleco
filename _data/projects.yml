@@ -1,11 +1,22 @@
-- name: Daily Game Designs
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 - name: Code Convoy
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Courses and workshops for people of all ages who want to learn web design or development.
+  icon: flask
+  category: education
+  link: http://codeconvoy.com
+
+- name: Daily Game Designs
+  description: A game design journal with a new game design every day. A creative playground for game ideas.
+  icon: gamepad
+  category: games
+  link: http://foster-douglas.com/games
 
 - name: typeguide.css
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Typeguide.css makes well-crafted, responsive website typography simple.
+  icon: code
+  category: web
+  link: http://github.com/kmcgillivray/typeguide.css
 
 - name: Creative Portfolios
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Websites for independent creative people and businesses.
+  icon: code
+  category: web
