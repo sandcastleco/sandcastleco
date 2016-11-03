@@ -4,7 +4,7 @@ title: Home
 theme: home
 ---
 
-<section class="section-two-thirds">
+<section class="section-two-thirds section-md-cover">
   <div class="vertical-center">
     <h1 class="sr-only">Sandcastle</h1>
     <div class="fadeIn">
@@ -12,27 +12,46 @@ theme: home
     </div>
   </div>
   <header class="fadeIn">
-    <a href="#contact"><span class="fa fa-commenting-o"></span><span>About / Contact</span></a>
+    <a href="#contact"><span style="margin-right: 5px;" class="fa fa-commenting-o"></span><span>About / Contact</span></a>
   </header>
 </section>
 
-<section class="section-one-third">
-  <div class="cover-bottom fadeIn">
+<div class="section-one-third section-md-clear">
+  <div id="projects" class="cover-bottom fadeIn">
     <div class="container-fluid">
+      <h2 class="sr-only">Projects</h2>
       <div class="row">
-        <h2 class="sr-only">Projects</h2>
+        <div class="col-md-8 center-block">
+          <div class="text-center">
+            <p class="lead" id="active-description"></p>
+          </div>
+        </div>
         {% for project in site.data.projects %}
         <div class="col-md-3">
-          <div class="card">
-            <a href="{{ project.link }}" class="btn btn-plain btn-{{ project.category }} btn-wide">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a>
-            <p>{{ project.description }}</p>
+          <div class="project card">
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="{{ project.link }}" class="btn btn-plain btn-{{ project.category }} btn-wide project-button" data-link="{{ project.links[0].link }}" data-category="{{ project.category }}" data-name="{{ project.name }}" data-description="{{ project.description }}">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a></h2>
+            <div class="text-center project-description">
+              <p>{{ project.description }}</p>
+              {% for link in project.links %}
+                <a href="{{ link.link }}" class="btn-sm btn btn-{{ project.category }} active">{{ link.text }}</a>
+              {% endfor %}
+            </div>
           </div>
         </div>
         {% endfor %}
       </div>
     </div>
   </div>
-</section>
+</div>
+
+<!-- <div style="width: 100%;" class="cover-bottom text-center">
+  <div class="btn btn-ghost btn-circle" id="start-button"></div>
+</div> -->
+
+
+<!-- <section class="section-one-third">
+
+</section> -->
 
 <section class="section-secondary">
   <div class="container-fluid">

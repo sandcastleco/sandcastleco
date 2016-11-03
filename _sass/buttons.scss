@@ -7,17 +7,21 @@
 }
 .btn:hover {
   transition: .3s all;
+  color: $white;
 }
 .btn-plain:hover {
   color: $white;
 }
-.btn-education:hover {
+.btn-education:hover,
+.btn-education.active {
   background-color: $green;
 }
-.btn-games:hover {
+.btn-games:hover,
+.btn-games.active {
   background-color: $red;
 }
-.btn-web:hover {
+.btn-web:hover,
+.btn-web.active {
   background-color: $blue;
 }
 .btn-ghost {
@@ -47,6 +51,9 @@
   color: $red;
   font-weight: bold;
 }
+.btn-circle {
+  border-radius: 4rem;
+}
 .btn.btn-red {
   background-color: $red;
   color: $white;
@@ -74,4 +81,7 @@
 }
 .btn-wide {
   width: 100%;
+}
+.btn-sm {
+  font-size: .8rem;
 }

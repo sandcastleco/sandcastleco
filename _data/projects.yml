@@ -1,22 +1,33 @@
 - name: Code Convoy
-  description: Courses and workshops for people of all ages who want to learn web design or development.
+  description: Web development courses and workshops.
   icon: flask
   category: education
-  link: http://codeconvoy.com
+  links:
+    - link: http://codeconvoy.com
+      text: View project
 
 - name: Daily Game Designs
-  description: A game design journal with a new game design every day. A creative playground for game ideas.
+  description: A daily game design journal.
   icon: gamepad
   category: games
-  link: http://foster-douglas.com/games
+  links:
+    - link: http://foster-douglas.com/games
+      text: View project
 
 - name: typeguide.css
-  description: Typeguide.css makes well-crafted, responsive website typography simple.
+  description: Well-crafted, responsive website typography made simple.
   icon: code
   category: web
-  link: http://github.com/kmcgillivray/typeguide.css
+  links:
+    - link: http://github.com/kmcgillivray/typeguide.css
+      text: View project
 
 - name: Creative Portfolios
   description: Websites for independent creative people and businesses.
   icon: code
   category: web
+  links:
+    - link: http://andrewnapier.com
+      text: Andrew Napier
+    - link: http://katboogaard.com
+      text: Kat Boogaard
