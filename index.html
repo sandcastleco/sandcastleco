@@ -29,7 +29,7 @@ theme: home
         {% for project in site.data.projects %}
         <div class="col-md-3">
           <div class="project card">
-            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="{{ project.link }}" class="btn btn-plain btn-{{ project.category }} btn-wide project-button" data-link="{{ project.links[0].link }}" data-category="{{ project.category }}" data-name="{{ project.name }}" data-description="{{ project.description }}">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a></h2>
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="{{ project.links[0].link }}" class="btn btn-plain btn-{{ project.category }} btn-wide project-button" data-link="{{ project.links[0].link }}" data-category="{{ project.category }}" data-name="{{ project.name }}" data-description="{{ project.description }}">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a></h2>
             <div class="text-center project-description">
               <p>{{ project.description }}</p>
               {% for link in project.links %}
