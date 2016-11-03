@@ -8,6 +8,9 @@ sandcastle.init = function() {
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
+  $("#about-tooltip").hover(function() {
+    $('#about-tooltip').tooltip('show')
+  })
 };
 
 sandcastle.sayHello = function() {

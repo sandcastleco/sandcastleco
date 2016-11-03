@@ -12,7 +12,7 @@ theme: home
     </div>
   </div>
   <header class="fadeIn">
-    <a href="#about" data-toggle="tooltip" data-placement="right" title="About / Contact"><span style="margin-right: 5px;" class="fa fa-commenting-o"></span><noscript><span>About / Contact</span></noscript></a>
+    <a id="about-tooltip" href="#about" data-placement="right" title="About / Contact" data-toggle="modal" data-target="#contactModal"><span style="margin-right: 5px;" class="fa fa-commenting-o"></span><noscript><span>About / Contact</span></noscript></a>
   </header>
 </section>
 
@@ -52,7 +52,7 @@ theme: home
 <!-- <section class="section-one-third">
 
 </section> -->
-
+<!--
 <section class="section-secondary">
   <div class="container-fluid">
     <div class="row">
@@ -67,4 +67,6 @@ theme: home
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+{% include contact-modal.html %}

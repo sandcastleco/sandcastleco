@@ -5,10 +5,10 @@
   color: $white;
 }
 .modal-backdrop {
-  background-color: $blue;
+  background-color: $green;
 }
 .modal-backdrop.in {
-  opacity: 1;
+  opacity: .9;
 }
 .modal .btn-close {
   float: right;

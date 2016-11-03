@@ -1,4 +1,4 @@
-## A tiny studio made of sand
+# A tiny studio made of sand
 
 Sandcastle is Kevin McGillivray and Foster Douglas. We care about creativity, mindfulness, and education.
 
