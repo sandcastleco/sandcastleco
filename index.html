@@ -12,7 +12,7 @@ theme: home
     </div>
   </div>
   <header class="fadeIn">
-    <a href="#contact"><span style="margin-right: 5px;" class="fa fa-commenting-o"></span><span>About / Contact</span></a>
+    <a href="#about" data-toggle="tooltip" data-placement="right" title="About / Contact"><span style="margin-right: 5px;" class="fa fa-commenting-o"></span><noscript><span>About / Contact</span></noscript></a>
   </header>
 </section>
 
@@ -56,7 +56,7 @@ theme: home
 <section class="section-secondary">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6">
+      <div id="about" class="col-md-6">
         {% capture bio %}{% include bio.md %}{% endcapture %}
         {{ bio | markdownify }}
       </div>

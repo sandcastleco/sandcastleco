@@ -1,0 +1,8 @@
+.tooltip-inner {
+  background-color: $blue;
+  color: $white;
+  font-weight: bold;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: $blue;
+}

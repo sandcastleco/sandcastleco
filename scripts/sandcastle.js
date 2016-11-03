@@ -5,6 +5,9 @@ sandcastle.init = function() {
   if (window.innerWidth >= 992) {
     sandcastle.projectMenu();
   }
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
 };
 
 sandcastle.sayHello = function() {
