@@ -55,6 +55,17 @@
   background-color: $white;
   color: $ocean;
 }
+.btn-inverse {
+  background-color: $white;
+  color: $blue;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.btn-inverse:hover {
+  background-color: $blue;
+  color: $white;
+}
 .btn-default {
   color: $red;
   font-weight: bold;
