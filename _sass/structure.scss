@@ -37,6 +37,10 @@ img {
 .section-two-thirds {
  height: 66.666vh;
 }
+.section-cover {
+  position: relative;
+  height: 100vh;
+}
 @media(min-width: 992px) {
   .section-md-cover {
     position: relative;

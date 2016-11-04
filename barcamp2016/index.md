@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="section-md-cover">
-  <div class="text-center vertical-center">
+  <div style="padding-top: 30px; padding-bottom: 30px;" class="text-center vertical-center-md">
     <a href="/">{% include logo.html fill="blue" %}</a>
     <div class="container">
       <div class="row">

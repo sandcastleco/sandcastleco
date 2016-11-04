@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="section-md-cover">
+<section class="section-cover">
   <div class="text-center vertical-center">
     <a href="/">{% include logo.html fill="sand" %}</a>
     <h1>Thanks.</h1>
