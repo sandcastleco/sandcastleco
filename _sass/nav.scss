@@ -9,6 +9,9 @@ header .fa {
   font-size: 1.9rem;
   vertical-align: middle;
 }
+#about-tooltip:hover {
+  color: $sand;
+}
 .menu-button {
   cursor: pointer;
   position: fixed;
