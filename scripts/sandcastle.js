@@ -9,7 +9,7 @@ sandcastle.init = function() {
     $('[data-toggle="tooltip"]').tooltip()
   });
   $("#about-tooltip").hover(function() {
-    $('#about-tooltip').tooltip('show')
+    $('#about-tooltip').tooltip('show');
   })
 };
 

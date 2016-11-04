@@ -1,8 +1,13 @@
 .tooltip-inner {
-  background-color: $blue;
+  position: relative;
+  top: 1px;
+  background-color: transparent;
   color: $white;
-  font-weight: bold;
+  font-weight: 400;
+  font-size: .85rem;
+  padding: 0;
 }
 .tooltip.right .tooltip-arrow {
-  border-right-color: $blue;
+  display: none;
+  border-right-color: transparent;
 }

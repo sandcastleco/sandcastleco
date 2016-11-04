@@ -8,9 +8,11 @@
   background-color: $green;
 }
 .modal-backdrop.in {
-  opacity: .9;
+  opacity: .95;
 }
 .modal .btn-close {
-  float: right;
+  position: relative;
+  top: 20px;
+  left: 10px;
   margin-bottom: 2rem;
 }

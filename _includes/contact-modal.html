@@ -1,23 +1,16 @@
 <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <button type="button" class="btn btn-close" data-dismiss="modal">
+    <span class="fa fa-chevron-left"></span>
+  </button>
   <div class="modal-dialog modal-lg">
-    <div class="row">
-      <div class="col-xs-12">
-        <button type="button" class="btn btn-close" data-dismiss="modal">
-          <div class="menu-button-shape">
-            <span class="menu-button-bar"></span>
-            <span class="menu-button-bar"></span>
-          </div>
-        </button>
-      </div>
-    </div>
     <div class="row">
       <div id="about" class="col-md-6">
         {% capture bio %}{% include bio.md %}{% endcapture %}
         {{ bio | markdownify }}
       </div>
       <div class="col-md-6">
-        <h1 id="contact">Contact Sandcastle</h1>
-        <p>If you're interested in chatting about games, education, or a web development project, email us or send us a message below. We'd love to work with you.</p>
+        <h2 id="contact">Contact Sandcastle</h2>
+        <p>If you're interested in chatting about games, education, or a web development project, <a href="mailto:sandcastle@sandcastle.co">email us</a> or send us a message below. We'd love to work with you.</p>
         {% include contact-form.html %}
       </div>
     </div>
