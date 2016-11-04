@@ -26,19 +26,19 @@ theme: home
             <p class="lead" id="active-description"></p>
           </div>
         </div>
+        <div class="text-center">
         {% for project in site.data.projects %}
-        <div class="col-md-3">
-          <div class="project card">
-            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="{{ project.links[0].link }}" class="btn btn-plain btn-{{ project.category }} btn-wide project-button" data-link="{{ project.links[0].link }}" data-category="{{ project.category }}" data-name="{{ project.name }}" data-description="{{ project.description }}">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a></h2>
-            <div class="text-center project-description">
+          <div class="project card text-center">
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="{{ project.links[0].link }}" class="btn btn-plain btn-{{ project.category }} project-button" data-link="{{ project.links[0].link }}" data-category="{{ project.category }}" data-name="{{ project.name }}" data-description="{{ project.description }}">{{ project.name }} <span class="fa fa-{{ project.icon }}"></span></a></h2>
+            <div class="project-description">
               <p>{{ project.description }}</p>
               {% for link in project.links %}
                 <a href="{{ link.link }}" class="btn-sm btn btn-{{ project.category }} active">{{ link.text }}</a>
               {% endfor %}
             </div>
           </div>
-        </div>
         {% endfor %}
+        </div>
       </div>
     </div>
   </div>
