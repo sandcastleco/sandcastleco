@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Barcamp Green Bay 2016
 ---
 
 <section class="section-md-cover">
@@ -33,13 +34,13 @@ layout: default
             <h2 style="margin-top: 0; margin-bottom: 0;"><a href="http://codeconvoy.com" class="btn btn-plain btn-web">Code Convoy <span class="fa fa-code"></span></a></h2>
           </div>
           <div class="project card text-center">
-            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="http://teaguide.co" class="btn btn-plain btn-cafe">Tea Guide <span class="fa fa-coffee"></span></a></h2>
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="http://teaguide.co" class="btn btn-plain btn-education">Tea Guide <span class="fa fa-coffee"></span></a></h2>
           </div>
           <div class="project card text-center">
-            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="/documents/how-to-pour-over-coffee-guide.pdf" class="btn btn-plain btn-cafe">Pour Over Coffee Guide <span class="fa fa-coffee"></span></a></h2>
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="/documents/how-to-pour-over-coffee-guide.pdf" class="btn btn-plain btn-education">Pour Over Coffee Guide <span class="fa fa-coffee"></span></a></h2>
           </div>
           <div class="project card text-center">
-            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="/documents/barcamp-coffee-bar-menu.pdf" class="btn btn-plain btn-cafe">Coffee Bar Menu <span class="fa fa-coffee"></span></a></h2>
+            <h2 style="margin-top: 0; margin-bottom: 0;"><a href="/documents/barcamp-coffee-bar-menu.pdf" class="btn btn-plain btn-education">Coffee Bar Menu <span class="fa fa-coffee"></span></a></h2>
           </div>
         </div>
       </div>
