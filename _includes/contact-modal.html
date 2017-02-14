@@ -1,18 +1,11 @@
-<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <button type="button" class="btn btn-close" data-dismiss="modal">
-    <span class="fa fa-chevron-left"></span>
-  </button>
-  <div class="modal-dialog modal-lg">
-    <div class="row">
-      <div id="about" class="col-md-6">
-        {% capture bio %}{% include bio.md %}{% endcapture %}
-        {{ bio | markdownify }}
-      </div>
-      <div class="col-md-6">
-        <h2 id="contact">Contact Sandcastle</h2>
-        <p>If you're interested in chatting about games, education, or a web development project, <a href="mailto:sandcastle@sandcastle.co">email us</a> or send us a message below. We'd love to work with you.</p>
-        {% include contact-form.html %}
-      </div>
-    </div>
+<div class="ph3 pv5 bg-ocean white lh-copy article-ocean">
+  <div class="mw7 center">
+    {% include logo.html %}
+    <h2 class="tc">A tiny studio made of sand</h2>
+    {% capture bio %}{% include bio.md %}{% endcapture %}
+    {{ bio | markdownify }}
+    <h2 class="tc" id="contact">Contact Sandcastle</h2>
+    <p>If you're interested in chatting about games, education, or a web development project, <a href="mailto:sandcastle@sandcastle.co">email us</a> or send us a message below. We'd love to work with you.</p>
+    {% include contact-form.html %}
   </div>
 </div>

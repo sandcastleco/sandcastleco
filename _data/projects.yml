@@ -1,33 +1,39 @@
 - name: UntitledTown
-  description: A book and author festival in Green Bay, WI.
+  description: A book and author festival.
   mainLink: http://untitledtown.org
+  image: untitledtown.png
+  background: parchment
+  textColor: sc-blue
 
 - name: Mary and Bill
   description: A documentary film about a 90-year-old triathlete and an 83-year-old high jump champion.
   mainLink: http://maryandbillfilm.com
+  image: mary-and-bill.jpg
+  textColor: mb-red
 
 - name: Code Convoy
   description: Web development courses and workshops.
   mainLink: http://codeconvoy.com
+  image: code-convoy.jpg
+  background: sc-blue
+  textColor: white
 
 - name: Daily Game Designs
   description: A daily game design journal.
   mainLink: http://foster-douglas.com
+  image: fuzz.jpg
+  background: fuzz-black
+  textColor: white
 
 - name: Tea Guide
   description: A mini guide to the world's favorite cup.
   mainLink: http://teaguide.co
+  image: tea-guide.jpg
+  background: tea-blue
+  textColor: white
 
 - name: Wisconsin Refugees
   description: A data visualization exploring refugees in Wisconsin from 2002-2016.
   mainLink: http://kevinmcgillivray.net/wisconsin-refugees
-
-- name: Creative Portfolios
-  description: Websites for independent creative people and businesses.
-  links:
-    - link: http://andrewnapier.com
-      text: Andrew Napier
-    - link: http://foster-douglas.com
-      text: Foster Douglas
-    - link: http://katboogaard.com
-      text: Kat Boogaard
+  image: wisconsin-refugees.jpg
+  textColor: sc-blue
