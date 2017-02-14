@@ -1,33 +1,25 @@
+- name: UntitledTown
+  description: A book and author festival in Green Bay, WI.
+  mainLink: http://untitledtown.org
+
+- name: Mary and Bill
+  description: Example description
+  mainLink: http://maryandbillfilm.com
+
 - name: Code Convoy
   description: Web development courses and workshops.
-  icon: flask
-  category: education
-  links:
-    - link: http://codeconvoy.com
-      text: View project
+  mainLink: http://codeconvoy.com
 
 - name: Daily Game Designs
   description: A daily game design journal.
-  icon: gamepad
-  category: games
-  links:
-    - link: http://foster-douglas.com/games
-      text: View project
-
-- name: typeguide.css
-  description: Well-crafted, responsive website typography made simple.
-  icon: code
-  category: web
-  links:
-    - link: http://github.com/kmcgillivray/typeguide.css
-      text: View project
+  mainLink: http://foster-douglas.com
 
 - name: Creative Portfolios
   description: Websites for independent creative people and businesses.
-  icon: code
-  category: web
   links:
     - link: http://andrewnapier.com
       text: Andrew Napier
+    - link: http://foster-douglas.com
+      text: Foster Douglas
     - link: http://katboogaard.com
       text: Kat Boogaard
