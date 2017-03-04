@@ -4,61 +4,11 @@ title: Home
 theme: home
 ---
 
-<section class="bg-ocean ph3 pv6 mb4">
-  <h1 class="sr-only">Sandcastle</h1>
-  <div class="fadeIn">
-    {% include logo.html %}
-  </div>
-  <!-- <header class="fadeIn">
-    <a id="about-tooltip" href="#about" data-placement="right" title="About / Contact" data-toggle="modal" data-target="#contactModal"><span style="margin-right: 5px;" class="fa fa-commenting"></span><noscript><span>About / Contact</span></noscript></a>
-  </header> -->
-</section>
+{% include header.html %}
 
-<section class="mh3">
-  <h2 class="tc ocean f6 mv5 ttu tracked">Recent Projects</h2>
-  <!-- <div class="dg-ns grid-50 cf"> -->
-  <div class="cf">
-  {% for project in site.data.projects %}
-    <div class="fl-ns w-50-ns">
-      <div class="tc pa3 bg-{{ project.background }} ba b--light-gray bw4 mh3 mb4">
-        {% if project.image %}
-          <a class="pointer" href="{{ project.mainLink }}"><img class="mw5 w-100" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
-        {% endif %}
-        {% if project.links %}
-        <ul class="list pl0 mv0">
-        {% for link in project.links %}
-          <li class="bg-sc-blue pa3 mb3"><a class="link white" href="{{ link.link }}">{{ link.text }}</a></li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-        <div class="ph3">
-          {% if project.mainLink %}
-            <h3 class="f5 normal"><a class="link {{ project.textColor }}" href="{{ project.mainLink }}">{{ project.name }}</a></h3>
-          {% else %}
-            <h3 class="f5 normal">{{ project.name }}</h3>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  </div>
-
-  <h2 class="tc ocean f6 mv5 ttu tracked">Creative Portfolios</h2>
-  <!-- <div class="dg-ns grid-33 cf mb4"> -->
-  <div class="cf mb4">
-  {% for project in site.data.portfolio-projects %}
-    <div class="fl-ns w-33-ns">
-      <div class="mh3 mb4 relative">
-        {% if project.image %}
-          <a style="font-size: 0;" class="dib w-100 pointer ba b--light-gray bw4" href="{{ project.link }}"><img class="w-100 b-and-w hover-color pointer" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
-        {% endif %}
-        <div class="ph3 w-100 tc absolute bottom-2">
-          <h3 class="f5 normal mv0"><a class="link white" href="{{ project.link }}">{{ project.name }}</a></h3>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  </div>
+<section class="ph3 mw8 center">
+  {% include home/recent-projects.html %}
+  {% include home/creative-portfolios.html %}
 </section>
 
 {% include contact-modal.html %}
