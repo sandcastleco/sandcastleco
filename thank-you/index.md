@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<section class="section-cover">
-  <div class="text-center vertical-center">
-    <a href="/">{% include logo.html fill="sand" %}</a>
-    <h1>Thanks.</h1>
-    <p>We'll be in touch soon!</p>
-  </div>
-</section>
+<div class="bg-ocean white vh-100 pa4 tc">
+  {% include logo.html %}
+  <h1>Thanks!</h1>
+  <p class="f4">We'll be in touch soon.</p>
+  <a class="dib link b bg-green bn br-pill ph4 pv2 white pointer" href="/">Return home</a>
+</div>
