@@ -1,0 +1,8 @@
+social:
+  - name: Twitter
+    link: 'http://twitter.com/sandcastleco'
+    icon: fa-twitter
+  - name: GitHub
+    link: 'http://github.com/sandcastleco'
+    icon: fa-github
+email: sandcastle@sandcastle.co
