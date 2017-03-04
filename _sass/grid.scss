@@ -1,0 +1,14 @@
+@media(min-width: 30em) {
+  .dg-ns {
+    display: grid;
+  }
+}
+.grid-50 {
+  grid-template-columns: 50% 50%;
+}
+.grid-33 {
+  grid-template-columns: 33% 33% 33%;
+}
+.grid-g-1 {
+  grid-gap: 20px;
+}

@@ -20,24 +20,6 @@
     transform: translateY(-50%);
   }
 }
-
-@media(min-width: 30em) {
-  .dg-ns {
-    display: grid;
-  }
-}
-.grid-50 {
-  grid-template-columns: 50% 50%;
-}
-.grid-33 {
-  grid-template-columns: 33% 33% 33%;
-}
-.grid-g-1 {
-  grid-gap: 20px;
-}
-.vh-90 {
-  height: 90vh;
-}
 .b-and-w {
   filter: grayscale(100%);
   transition: filter 1s;
@@ -45,26 +27,4 @@
 .hover-color:hover {
   filter: grayscale(0);
   transition: filter 1s;
-}
-
-.article-ocean a {
-  color: $sand;
-  text-decoration: none;
-  transition: opacity 0.3s;
-}
-.article-ocean a:hover {
-  opacity: 0.7;
-  transition: opacity 0.3s;
-}
-input,
-textarea {
-  border: 0;
-  border-bottom: .25rem solid rgba($white, 0.3);
-  transition: border-color 0.3s;
-}
-input:focus,
-textarea:focus {
-  outline: none;
-  border-bottom: .25rem solid rgba($white, 1);
-  transition: border-color 0.3s;
 }

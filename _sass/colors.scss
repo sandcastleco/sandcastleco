@@ -1,33 +1,28 @@
-.bg-ocean {
-  background-color: $ocean;
-}
-.ocean {
-  color: $ocean;
-}
-.bg-sand {
-  background-color: $sand;
-}
-.sand {
-  color: $sand;
-}
-.bg-sc-blue {
-  background-color: $blue;
-}
-.sc-blue {
-  color: $blue;
-}
-.bg-fuzz-black {
-  background-color: #171717;
-}
-.bg-tea-blue {
-  background-color: #7b879a;
-}
-.bg-parchment {
-  background-color: #faf9f5;
-}
-.mb-red {
-  color: #800001;
-}
+/*
+
+   COLORS
+
+   Classes for setting foreground and background colors on elements.
+
+*/
+
+/* Text colors */
+
+.ocean { color: $ocean; }
+.sand { color: $sand; }
+.sc-blue { color: $blue; }
+.mb-red { color: #800001; }
+
+/* Background colors */
+
+.bg-ocean { background-color: $ocean; }
+.bg-sand { background-color: $sand; }
+.bg-sc-blue { background-color: $blue; }
+.bg-fuzz-black { background-color: #171717; }
+.bg-tea-blue { background-color: #7b879a; }
+.bg-parchment { background-color: #faf9f5; }
+
+/* Borders */
 
 .bb--white {
   border-bottom-color: $white;
