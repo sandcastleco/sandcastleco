@@ -5,7 +5,7 @@
     {% capture bio %}{% include bio.md %}{% endcapture %}
     {{ bio | markdownify }}
     <h2 class="tc" id="contact">Contact Sandcastle</h2>
-    <p>If you're interested in chatting about games, education, or a web development project, <a class="sand link dim" href="{{ site.data.contact.email }}">email us</a> or send us a message below. We'd love to work with you.</p>
+    <p>If you're interested in chatting about games, education, or a web development project, <a class="sand link dim" href="mailto:{{ site.data.contact.email }}">email us</a> or send us a message below. We'd love to work with you.</p>
     {% include contact-form.html %}
   </div>
 </div>
