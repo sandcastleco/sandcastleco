@@ -2,6 +2,9 @@ social:
   - name: Twitter
     link: 'http://twitter.com/sandcastleco'
     icon: 'icons/twitter.html'
+  - name: Instagram
+    link: 'http://instagram.com/sandcastleco'
+    icon: 'icons/instagram.html'
   - name: GitHub
     link: 'http://github.com/sandcastleco'
     icon: 'icons/github.html'
