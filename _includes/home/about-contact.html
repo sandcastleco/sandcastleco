@@ -1,9 +1,11 @@
-<section class="ph3 pv5 bg-ocean white lh-copy">
-  <div class="mw6 center">
+<section class="ph3 pv5 mw6 mw9-l center ocean lh-copy cf">
+  <div class="fl-l w-50-l ph3 ph5-l">
 
     {% capture about %}{% include about.md %}{% endcapture %}
     {{ about | markdownify }}
 
+  </div>
+  <div class="fl-l w-50-l ph3 ph5-l">
     {% capture contact %}{% include contact.md %}{% endcapture %}
     {{ contact | markdownify }}
     {% include contact-form.html %}

@@ -7,5 +7,3 @@ We're a hands-on duo and we work on projects that we are thoroughly enthusiastic
 We've been collaborators for over a decade, and everything we've done and explored has shared the same overall drive: use and practice our creative skills to make unique, meaningful things, help other people use and develop their creative skills, never stop learning and exploring, and make the world a more beautiful, mindful place.
 
 Foster's recent favorite coffee is from Spyhouse in Minnesota. Kevin's recent favorite tea is Pure Bud Golden Snail from What-Cha. Keep an eye out here for our upcoming coffee and tea blog!
-
-{% include social-links.html %}
