@@ -5,6 +5,12 @@
   background: parchment
   textColor: sc-blue
 
+- name: St. Norbert College Badges
+  description: A new way for students to track and share their achievements.
+  mainLink: http://badges.snc.edu
+  image: st-norbert-college-logo.jpg
+  textColor: snc-green
+
 - name: Mary and Bill
   description: A documentary film about a 90-year-old triathlete and an 83-year-old high jump champion.
   mainLink: http://maryandbillfilm.com
