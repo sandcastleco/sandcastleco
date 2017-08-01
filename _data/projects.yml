@@ -28,8 +28,7 @@
   description: Software and solutions to help libraries connect with their communities.
   mainLink: http://civictechnologies.com
   image: communityconnect.png
-  background: cc-blue
-  textColor: white
+  textColor: cc-blue
 
 - name: Daily Game Designs
   description: A daily game design journal.
