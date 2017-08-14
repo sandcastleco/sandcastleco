@@ -1,20 +1,16 @@
-<section class="ph3 mw8 center">
-  <h2 class="tc ocean f5 mv5 ttu tracked b">Recent Projects</h2>
-  <!-- <div class="dg-ns grid-50 cf"> -->
-  <div class="cf">
+<section class="ph3 ph5-l mw9 center">
+  <div class="dg-ns grid-33">
   {% for project in site.data.projects %}
-    <div class="fl-ns w-50-ns">
-      <div class="tc pa3 bg-{{ project.background }} ba b--light-gray bw4 mh3 mb4">
-        {% if project.image %}
-          <a class="pointer" href="{{ project.mainLink }}"><img class="mw5 w-100" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
+    <div class="mh3 mb4 pa3 {% if project.background %}bg-{{ project.background }}{% endif %} tc ba b--light-gray bw3">
+      {% if project.image %}
+        <a class="pointer" href="{{ project.mainLink }}"><img class="mw5 w-100" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
+      {% endif %}
+      <div class="ph3">
+        {% if project.mainLink %}
+          <h3 class="f5 normal"><a class="link {{ project.textColor }}" href="{{ project.mainLink }}">{{ project.name }}</a></h3>
+        {% else %}
+          <h3 class="f5 normal">{{ project.name }}</h3>
         {% endif %}
-        <div class="ph3">
-          {% if project.mainLink %}
-            <h3 class="f5 normal"><a class="link {{ project.textColor }}" href="{{ project.mainLink }}">{{ project.name }}</a></h3>
-          {% else %}
-            <h3 class="f5 normal">{{ project.name }}</h3>
-          {% endif %}
-        </div>
       </div>
     </div>
   {% endfor %}

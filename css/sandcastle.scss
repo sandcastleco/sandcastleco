@@ -2,11 +2,10 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'variables';
 @import 'colors';
 @import 'global';
 @import 'typography';
 @import 'logo';
 @import 'form';
 @import 'animations';
-// @import 'grid'; Not yet implemented
+@import 'grid';

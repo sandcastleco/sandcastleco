@@ -1,6 +1,7 @@
-## A tiny studio made of sand
+## A <span class="sand">tiny studio</span> made of sand
+{: .f2 .fw1 .ocean }
 
-Sandcastle is a web design studio by [Kevin McGillivray](http://twitter.com/kev_mcg){: .sand.link.dim } and [Foster Douglas](http://twitter.com/_fosterdouglas){: .sand.link.dim }. Sandcastle’s mission is to enthusiastically support creative projects that make communities more beautiful, mindful, healthy, unique, kind, and exciting. We work with **independent, creative people and businesses** on projects focused on **education, community building, and unique, creative ideas.**
+Sandcastle is a web design studio by [Kevin McGillivray](http://twitter.com/kev_mcg){: .bg-light-gray.ocean.ph1.link.dim } and [Foster Douglas](http://twitter.com/_fosterdouglas){: .bg-light-gray.ocean.ph1.link.dim }. Sandcastle’s mission is to enthusiastically support creative projects that make communities more beautiful, mindful, healthy, unique, kind, and exciting. We work with independent, creative people and businesses on projects focused on education, community building, and unique, creative ideas.
 
 We're a hands-on duo and we work on projects that we are thoroughly enthusiastic about—that means we'll understand your vision and help you push it even further to make it a reality. We're also dedicated to the craft and art of the web, which means you'll have a website you love that will grow with you.
 

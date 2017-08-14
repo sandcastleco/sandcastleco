@@ -6,6 +6,15 @@
 
 */
 
+$black: #1F1F1F;
+$white: #FFFFFF;
+$sand: #E6C195;
+$ocean: #163D59;
+$red: #D9482B;
+$yellow: #F2C53D;
+$green: #53A668;
+$blue: #30A7BF;
+
 /* Text colors */
 
 .ocean { color: $ocean; }
@@ -35,6 +44,9 @@
 
 /* Borders */
 
+.b--ocean {
+  border-color: $ocean;
+}
 .bb--white {
   border-bottom-color: $white;
 }

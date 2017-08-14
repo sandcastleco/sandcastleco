@@ -1,5 +1,10 @@
-.proxima {
-  font-family: $proxima-nova;
+$freight-sans: "freight-sans-pro", sans-serif;
+
+body {
+  font-size: 18px;
+}
+.freight {
+  font-family: $freight-sans;
 }
 h1,
 h2,

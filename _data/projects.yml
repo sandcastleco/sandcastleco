@@ -5,17 +5,23 @@
   background: parchment
   textColor: sc-blue
 
+- name: Mary and Bill
+  description: A documentary film about a 90-year-old triathlete and an 83-year-old high jump champion.
+  mainLink: http://maryandbillfilm.com
+  image: mary-and-bill.jpg
+  textColor: mb-red
+
 - name: St. Norbert College Badges
   description: A new way for students to track and share their achievements.
   mainLink: http://badges.snc.edu
   image: st-norbert-college-logo.jpg
   textColor: snc-green
 
-- name: Mary and Bill
-  description: A documentary film about a 90-year-old triathlete and an 83-year-old high jump champion.
-  mainLink: http://maryandbillfilm.com
-  image: mary-and-bill.jpg
-  textColor: mb-red
+- name: CIVICTechnologies
+  description: Software and solutions to help libraries connect with their communities.
+  mainLink: http://civictechnologies.com
+  image: communityconnect.png
+  textColor: cc-blue
 
 - name: Code Convoy
   description: Web development courses and workshops.
@@ -23,12 +29,6 @@
   image: code-convoy.jpg
   background: sc-blue
   textColor: white
-
-- name: CIVICTechnologies
-  description: Software and solutions to help libraries connect with their communities.
-  mainLink: http://civictechnologies.com
-  image: communityconnect.png
-  textColor: cc-blue
 
 - name: Daily Game Designs
   description: A daily game design journal.
