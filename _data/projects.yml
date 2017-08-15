@@ -48,4 +48,4 @@
   description: A data visualization exploring refugees in Wisconsin from 2002-2016.
   mainLink: https://kmcgillivray.github.io/wisconsin-refugees/
   image: wisconsin-refugees.jpg
-  textColor: sc-blue
+  textColor: dark-blue
