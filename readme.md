@@ -4,10 +4,17 @@ The [Sandcastle](http://sandcastle.co) website!
 
 ## Getting started
 
-1. Make sure you have [Jekyll](http://jekyllrb.com) installed.
-2. Clone this repository.
-3. Navigate into the project directory.
-4. Run `jekyll serve`
+Make sure you have the following installed:
+
+* [Jekyll](http://jekyllrb.com)
+* [npm](https://www.npmjs.com/get-npm)
+
+Then:
+
+1. Clone this repository.
+2. Navigate into the project directory.
+3. Run `npm install`
+4. Run `npm start`
 5. Go to `localhost:4000` in a browser.
 
 ## Contributing
