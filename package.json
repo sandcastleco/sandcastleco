@@ -1,0 +1,22 @@
+{
+  "name": "sandcastle",
+  "version": "1.0.0",
+  "description": "The [Sandcastle](http://sandcastle.co) website!",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack & jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandcastleco/sandcastleco.github.io.git"
+  },
+  "author": "Kevin McGillivray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandcastleco/sandcastleco.github.io/issues"
+  },
+  "homepage": "https://github.com/sandcastleco/sandcastleco.github.io#readme",
+  "dependencies": {
+    "webpack": "^3.5.4"
+  }
+}
