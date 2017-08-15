@@ -4,6 +4,22 @@ module.exports = options => {
     output: {
       filename: './scripts/bundle.js',
     },
-    watch: true
+    watch: true,
+    module: {
+      rules: [
+        {
+          test: /.js%/,
+          exclude: /node_modules/,
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                cacheDirectory: true,
+              },
+            },
+          ],
+        },
+      ],
+    },
   }
 }
