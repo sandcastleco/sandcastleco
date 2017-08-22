@@ -1,5 +1,5 @@
 <section class="ph3 ph5-l mw9 center">
-  <h2 class="tc ocean f5 mv5 ttu tracked b">Creative Portfolios</h2>
+  <h2 class="tc ocean f5 mv5 ttu tracked museo-sans b">Creative Portfolios</h2>
   <div class="cf mb4">
   {% for project in site.data.portfolio-projects %}
     <div class="fl-ns w-33-ns">
@@ -8,7 +8,7 @@
           <a style="font-size: 0;" class="dib w-100 pointer ba b--light-gray bw3" href="{{ project.link }}"><img class="w-100 b-and-w hover-color pointer" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
         {% endif %}
         <div class="ph3 w-100 tc absolute bottom-2">
-          <h3 class="f5 normal mv0"><a class="link white" href="{{ project.link }}">{{ project.name }}</a></h3>
+          <h3 class="mv0 museo-sans f5 normal"><a class="link white" href="{{ project.link }}">{{ project.name }}</a></h3>
         </div>
       </div>
     </div>
