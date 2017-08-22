@@ -1,9 +1,15 @@
-var mojs = require('mo-js');
+import mojs from 'mo-js';
 
 // console.log(mojs);
 //
+// var coverPage = document.getElementById('cover-page');
+// console.log(coverPage);
+//
 // var shape = new mojs.Shape({
-//   parent: document.getElementById('cover-page'),
-//   shape:        'circle',
-//   isShowStart:  true
+//   parent: coverPage,
+//   shape: 'circle',
+//   isShowStart: true
+//
 // });
+//
+// console.log(shape);

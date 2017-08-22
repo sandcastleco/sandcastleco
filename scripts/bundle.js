@@ -65,17 +65,27 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var mojs = __webpack_require__(3);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_mo_js__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_mo_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_mo_js__);
+
 
 // console.log(mojs);
 //
+// var coverPage = document.getElementById('cover-page');
+// console.log(coverPage);
+//
 // var shape = new mojs.Shape({
-//   parent: document.getElementById('cover-page'),
-//   shape:        'circle',
-//   isShowStart:  true
+//   parent: coverPage,
+//   shape: 'circle',
+//   isShowStart: true
+//
 // });
+//
+// console.log(shape);
 
 
 /***/ }),
