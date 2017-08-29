@@ -32,6 +32,9 @@ $blue: #30A7BF;
 .bg-fuzz-black { background-color: #171717; }
 .bg-tea-blue { background-color: #7b879a; }
 .bg-parchment { background-color: #faf9f5; }
+.bg-mb-red { background-color: #800001; }
+.bg-snc-green { background-color: #00461c; }
+.bg-cc-blue { background-color: #1073ba; }
 
 /* Fills */
 
@@ -44,9 +47,8 @@ $blue: #30A7BF;
 
 /* Borders */
 
-.b--ocean {
-  border-color: $ocean;
-}
-.bb--white {
-  border-bottom-color: $white;
-}
+.b--ocean { border-color: $ocean; }
+.b--sand { border-color: $sand; }
+.bb--white { border-bottom-color: $white; }
+
+.bg-gradient-1 { background: linear-gradient(rgba($white, 0), rgba($white, 0.8)); }

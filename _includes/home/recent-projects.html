@@ -1,18 +1,13 @@
-<section class="ph3 ph5-l mw9 center">
+<section>
   <div class="dg-ns grid-33">
   {% for project in site.data.projects %}
-    <div class="mh3 mb4 pa3 {% if project.background %}bg-{{ project.background }}{% endif %} tc ba b--light-gray bw3">
-      {% if project.image %}
-        <a class="pointer" href="{{ project.mainLink }}"><img class="mw5 w-100" src="/img/{{ project.image }}" alt="{{ project.name }}"></a>
-      {% endif %}
-      <div class="ph3">
-        {% if project.mainLink %}
-          <h3 class="museo-sans f5 normal"><a class="link {{ project.textColor }}" href="{{ project.mainLink }}">{{ project.name }}</a></h3>
-        {% else %}
-          <h3 class="museo-sans f5 normal">{{ project.name }}</h3>
-        {% endif %}
+    <a href="{{ project.mainLink }}" class="card db pa3 {% if project.background %}bg-{{ project.background }}{% endif %} link">
+      <img class="db mw5 w-100 center" src="/img/{{ project.image }}" alt="{{ project.name }}">
+      <div class="card-caption border-box pa3 lh-copy w-100 {% if project.theme == 'light' %}bg-gradient-1 dark-gray{% else %}white{% endif %}">
+        <h3 class="mv0 br2 dib f5 normal">{{ project.name }}</h3>
+        <p class="mv0 f6">{{ project.description }}</p>
       </div>
-    </div>
+    </a>
   {% endfor %}
   </div>
 </section>
