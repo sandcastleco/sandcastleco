@@ -3,6 +3,7 @@
 }
 .card-caption {
   position: absolute;
+  text-align: center;
   bottom: 0;
   right: 0;
   opacity: 0;
@@ -14,8 +15,8 @@
   transition: transform 0.3s;
 }
 .card:hover img {
-  transform: scale(1.02);
-  transition: transform 0.3s;
+  transform: scale(1.08);
+  transition: transform .8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .card:hover .card-caption {
   opacity: 1;
