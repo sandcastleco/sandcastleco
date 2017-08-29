@@ -1,4 +1,11 @@
-- name: UntitledTown
+- name:
+  description: A documentary film about 90-year-old athletes.
+  mainLink: http://maryandbillfilm.com
+  image: mary-and-bill.jpg
+  textColor: mb-red
+  theme: light
+
+- name:
   description: A book and author festival.
   mainLink: http://untitledtown.org
   image: untitledtown.png
@@ -6,51 +13,74 @@
   textColor: sc-blue
   theme: light
 
-- name: Mary and Bill
-  description: A documentary film about 90-year-old athletes.
-  mainLink: http://maryandbillfilm.com
-  image: mary-and-bill.jpg
-  textColor: mb-red
-  theme: light
-
-- name: St. Norbert College Badges
+- name:
   description: A platform for students to track their achievements.
   mainLink: http://badges.snc.edu
   image: st-norbert-college-logo.jpg
   textColor: snc-green
   theme: light
 
-- name: CIVICTechnologies
-  description: Solutions to help libraries connect with their communities.
-  mainLink: http://civictechnologies.com
-  image: communityconnect.png
-  textColor: cc-blue
-  theme: light
-
-- name: Code Convoy
+- name:
   description: Web development courses and workshops.
   mainLink: http://codeconvoy.com
   image: code-convoy.jpg
   background: sc-blue
   textColor: white
 
-- name: Daily Game Designs
+- name:
+  description: Solutions to help libraries connect with their communities.
+  mainLink: http://civictechnologies.com
+  image: communityconnect.png
+  textColor: cc-blue
+  theme: light
+
+- name:
+  description: Creative writer and life guru.
+  mainLink: http://katboogaard.com
+  image: kat-logo.png
+  background: kat-sorbet
+  textColor: white
+
+- name:
+  description: Filmmaker and generally wacky guy.
+  mainLink: http://andrewnapier.com
+  image: andrew-logo.png
+  background: white
+  textColor: black
+  theme: light
+
+- name:
   description: A daily game design journal.
   mainLink: http://foster-douglas.com
   image: fuzz.jpg
   background: fuzz-black
   textColor: white
 
-- name: Tea Guide
+- name:
+  description: A data visualization exploring refugees data in Wisconsin.
+  mainLink: https://kmcgillivray.github.io/wisconsin-refugees/
+  image: wisconsin-refugees.jpg
+  textColor: dark-blue
+  theme: light
+
+- name:
   description: A mini guide to the world's favorite cup.
   mainLink: http://teaguide.co
   image: tea-guide.jpg
   background: tea-blue
   textColor: white
 
-- name: Wisconsin Refugees
-  description: A data visualization exploring refugees data in Wisconsin.
-  mainLink: https://kmcgillivray.github.io/wisconsin-refugees/
-  image: wisconsin-refugees.jpg
-  textColor: dark-blue
+- name:
+  description: Kevin's techno-hub.
+  mainLink: https://kevinmcgillivray.net/
+  image: kevin-logo.png
+  background: white
+  textColor: kevin-teal
   theme: light
+
+- name:
+  description: Foster's design portfolio.
+  mainLink: http://foster-douglas.com/portfolio
+  image: foster-logo.png
+  background: foster-orange
+  textColor: white
