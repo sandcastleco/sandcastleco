@@ -1,12 +1,11 @@
 <section>
   <div class="dg-ns grid-33">
   {% for project in site.data.projects %}
-    <a href="{{ project.mainLink }}" class="card db pa3 {% if project.background %}bg-{{ project.background }}{% endif %} link">
+    <a href="{{ project.mainLink }}" target="_blank" class="card db pa4 {% if project.background %}bg-{{ project.background }}{% endif %} link">
       <img class="db mw5 w-100 center" src="/img/{{ project.image }}" alt="{{ project.name }}">
-      <div class="card-caption border-box pa3 lh-copy w-100 {% if project.theme == 'light' %}bg-gradient-1 dark-gray{% else %}white{% endif %}">
-        <h3 class="mv0 br2 dib f5 normal">{{ project.name }}</h3>
-        <p class="mv0 f6">{{ project.description }}</p>
-      </div>
+      <!-- <div class="card-caption border-box pa3 lh-copy w-100 {% if project.theme == 'light' %}bg-gradient-1 {{ project.textColor }}{% else %}white{% endif %}">
+        <p class="mv0 f6 tc">{{ project.description }}</p>
+      </div> -->
     </a>
   {% endfor %}
   </div>

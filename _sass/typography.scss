@@ -3,7 +3,7 @@ $museo-sans: "museo-sans", sans-serif;
 $museo-slab: "museo-slab", serif;
 
 body {
-  font-size: 18px;
+  font-size: 17px;
 }
 .museo-sans {
   font-family: $museo-sans;
@@ -19,4 +19,8 @@ h5,
 h6 {
   font-family: $museo-slab;
   font-weight: 100;
+}
+
+a {
+  outline: none !important;
 }
