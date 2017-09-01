@@ -1,3 +1,7 @@
+import {TweenMax, TimelineLite} from 'gsap';
+import {randScale} from './colors.js'
+import {shuffle, toArray} from './utils.js'
+
 // Animation settings
 
 var movementScale = 5;
@@ -43,7 +47,27 @@ function relativeCoords(event, element) {
 }
 
 window.onload = function() {
-  const cards = document.getElementsByClassName('hover-3d');
+  var tl = new TimelineLite();
+  var coverPage = document.getElementById('cover-page');
+  var cards = document.getElementsByClassName('hover-3d');
+  var cardsContent = document.getElementsByClassName('hover-3d-content');
+  var logo = document.getElementById('logo');
+  // fade in cover page and cards
+  // after fade, randomly animate card colors
+  // settle on final colors
+  // fade in logo and icons
+  // cards = shuffle(toArray(cards));
+  // tl.add(TweenMax.fromTo(coverPage, 1, {
+  //   height: '0vh'
+  // }, {
+  //   height: '0vh'
+  // }));
+  tl.add(TweenMax.staggerFromTo(cards, .5, {opacity: 0}, {opacity: 1}, 0.1));
+  tl.add(TweenMax.staggerFromTo(cardsContent, .5, {opacity: 0}, {opacity: 1}, 0.1));
+  tl.add(TweenMax.fromTo(coverPage, .5, {height: 0}, {height: '60vh'}));
+  tl.add(TweenMax.fromTo(logo, .5, {opacity: 0}, {opacity: 1}));
+  // tl.add(TweenMax.to(cards, .5, {backgroundColor: 'inherit'}));
+
 
   for (var i = 0; i < cards.length; i++) {
     cards[i].addEventListener('mousemove', cardAnimation);
