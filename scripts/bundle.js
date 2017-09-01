@@ -78,8 +78,8 @@ function cardAnimation(event) {
   var image = this.querySelector('img');
   var xPercent = coords.x / this.offsetWidth;
   var yPercent = coords.y / this.offsetHeight;
-  var x = calculatePosition(xPercent, coords.x, this);
-  var y = calculatePosition(yPercent, coords.y, this);
+  var x = calculatePosition(xPercent +30, coords.x, this);
+  var y = calculatePosition(yPercent +50, coords.y, this);
   image.style.transform = 'translateY(' + y + 'px) translateX(' + x + 'px) scale3d(1.1, 1.1, 1.1)';
 }
 
