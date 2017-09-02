@@ -1,4 +1,4 @@
-import {TweenMax, TimelineLite} from 'gsap';
+import {TimelineLite} from 'gsap';
 
 var loadAnimation = {
   start: function() {

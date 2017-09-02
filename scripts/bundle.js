@@ -71,67 +71,17 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__colors_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_js__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__utils_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__load_animation_js__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__load_animation_js__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__card_js__ = __webpack_require__(7);
 
 
 
-
-// Animation settings
-
-var movementScale = 5;
-
-// Animation functions
-
-function cardAnimation(event) {
-  var coords = relativeCoords(event, this);
-  var image = this.querySelector('img');
-  var xPercent = coords.x / this.offsetWidth;
-  var yPercent = coords.y / this.offsetHeight;
-  var x = calculatePosition(xPercent, coords.x, this);
-  var y = calculatePosition(yPercent, coords.y, this);
-  image.style.transform = 'translateY(' + y + 'px) translateX(' + x + 'px) scale3d(1.1, 1.1, 1.1)';
-}
-
-function cardReset() {
-  var image = this.querySelector('img');
-  image.style.transform = 'translateY(0) translateX(0) scale3d(1.0,1.0,1.0)';
-}
-
-// Helper functions
-
-function calculatePosition(percent, coord, element) {
-  var subPercent;
-  var position;
-
-  if (percent < 0.5) {
-    subPercent = 1 - (coord / (element.offsetWidth / 2));
-    position = (subPercent * -movementScale);
-  } else {
-    subPercent = (coord / (element.offsetWidth / 2));
-    position = (subPercent * movementScale);
-  }
-  return position;
-}
-
-function relativeCoords(event, element) {
-  var bounds = element.getBoundingClientRect();
-  var x = event.clientX - bounds.left;
-  var y = event.clientY - bounds.top;
-  return {x: x, y: y};
-}
 
 window.onload = function() {
 
-  var cards = document.getElementsByClassName('hover-3d');
+  __WEBPACK_IMPORTED_MODULE_1__load_animation_js__["a" /* default */].start();
+  __WEBPACK_IMPORTED_MODULE_2__card_js__["a" /* default */].init();
 
-  __WEBPACK_IMPORTED_MODULE_2__load_animation_js__["a" /* default */].start();
-
-  for (var i = 0; i < cards.length; i++) {
-    cards[i].addEventListener('mousemove', cardAnimation);
-    cards[i].addEventListener('mouseleave', cardReset);
-  }
 }
 
 
@@ -8110,38 +8060,7 @@ module.exports = {
 
 
 /***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  shuffle: function(array) {
-    let currentIndex = array.length;
-    let temporaryValue;
-    let randomIndex;
-    const newArray = array.slice();
-    // While there remain elements to shuffle...
-    while (currentIndex) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-      // And swap it with the current element.
-      temporaryValue = newArray[currentIndex];
-      newArray[currentIndex] = newArray[randomIndex];
-      newArray[randomIndex] = temporaryValue;
-    }
-    return newArray;
-  },
-  toArray: function(obj) {
-    var array = [];
-    // iterate backwards ensuring that length is an UInt32
-    for (var i = obj.length >>> 0; i--;) {
-      array[i] = obj[i];
-    }
-    return array;
-  }
-}
-
-
-/***/ }),
+/* 4 */,
 /* 5 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8166,6 +8085,63 @@ var loadAnimation = {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (loadAnimation);
+
+
+/***/ }),
+/* 6 */,
+/* 7 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var movementScale = 5;
+
+function onHover(event) {
+  var coords = relativeCoords(event, this);
+  var image = this.querySelector('img');
+  var xPercent = coords.x / this.offsetWidth;
+  var yPercent = coords.y / this.offsetHeight;
+  var x = calculatePosition(xPercent, coords.x, this);
+  var y = calculatePosition(yPercent, coords.y, this);
+  image.style.transform = 'translateY(' + y + 'px) translateX(' + x + 'px) scale3d(1.1, 1.1, 1.1)';
+}
+
+function resetHover() {
+  var image = this.querySelector('img');
+  image.style.transform = 'translateY(0) translateX(0) scale3d(1.0,1.0,1.0)';
+}
+
+function calculatePosition(percent, coord, element) {
+  var subPercent;
+  var position;
+
+  if (percent < 0.5) {
+    subPercent = 1 - (coord / (element.offsetWidth / 2));
+    position = (subPercent * -movementScale);
+  } else {
+    subPercent = (coord / (element.offsetWidth / 2));
+    position = (subPercent * movementScale);
+  }
+  return position;
+}
+
+function relativeCoords(event, element) {
+  var bounds = element.getBoundingClientRect();
+  var x = event.clientX - bounds.left;
+  var y = event.clientY - bounds.top;
+  return {x: x, y: y};
+}
+
+var card = {
+  elements: document.getElementsByClassName('hover-3d'),
+  init: function() {
+    for (var i = 0; i < this.elements.length; i++) {
+      this.elements[i].addEventListener('mousemove', onHover);
+      this.elements[i].addEventListener('mouseleave', resetHover);
+    }
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (card);
 
 
 /***/ })
