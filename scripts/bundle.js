@@ -69,12 +69,11 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_gsap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__colors_js__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__colors_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__colors_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_js__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__utils_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__colors_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_js__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__utils_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__load_animation_js__ = __webpack_require__(5);
 
 
 
@@ -124,27 +123,10 @@ function relativeCoords(event, element) {
 }
 
 window.onload = function() {
-  var tl = new __WEBPACK_IMPORTED_MODULE_0_gsap__["TimelineLite"]();
-  var coverPage = document.getElementById('cover-page');
-  var cards = document.getElementsByClassName('hover-3d');
-  var cardsContent = document.getElementsByClassName('hover-3d-content');
-  var logo = document.getElementById('logo');
-  // fade in cover page and cards
-  // after fade, randomly animate card colors
-  // settle on final colors
-  // fade in logo and icons
-  // cards = shuffle(toArray(cards));
-  // tl.add(TweenMax.fromTo(coverPage, 1, {
-  //   height: '0vh'
-  // }, {
-  //   height: '0vh'
-  // }));
-  tl.add(__WEBPACK_IMPORTED_MODULE_0_gsap__["TweenMax"].staggerFromTo(cards, .5, {opacity: 0}, {opacity: 1}, 0.1));
-  tl.add(__WEBPACK_IMPORTED_MODULE_0_gsap__["TweenMax"].staggerFromTo(cardsContent, .5, {opacity: 0}, {opacity: 1}, 0.1));
-  tl.add(__WEBPACK_IMPORTED_MODULE_0_gsap__["TweenMax"].fromTo(coverPage, .5, {height: 0}, {height: '60vh'}));
-  tl.add(__WEBPACK_IMPORTED_MODULE_0_gsap__["TweenMax"].fromTo(logo, .5, {opacity: 0}, {opacity: 1}));
-  // tl.add(TweenMax.to(cards, .5, {backgroundColor: 'inherit'}));
 
+  var cards = document.getElementsByClassName('hover-3d');
+
+  __WEBPACK_IMPORTED_MODULE_2__load_animation_js__["a" /* default */].start();
 
   for (var i = 0; i < cards.length; i++) {
     cards[i].addEventListener('mousemove', cardAnimation);
@@ -8157,6 +8139,33 @@ module.exports = {
     return array;
   }
 }
+
+
+/***/ }),
+/* 5 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_gsap__);
+
+
+var loadAnimation = {
+  start: function() {
+    var tl = new __WEBPACK_IMPORTED_MODULE_0_gsap__["TimelineLite"]();
+    var coverPage = document.getElementById('cover-page');
+    var cards = document.getElementsByClassName('hover-3d');
+    var cardsContent = document.getElementsByClassName('hover-3d-content');
+    var logo = document.getElementById('logo');
+
+    tl.staggerFromTo(cards, .5, {opacity: 0}, {opacity: 1}, 0.1)
+      .staggerFromTo(cardsContent, .5, {opacity: 0}, {opacity: 1}, 0.1)
+      .fromTo(coverPage, .5, {height: 0}, {height: '60vh'})
+      .fromTo(logo, .5, {opacity: 0}, {opacity: 1});
+  }
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (loadAnimation);
 
 
 /***/ })
