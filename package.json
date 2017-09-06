@@ -4,7 +4,7 @@
   "description": "The [Sandcastle](http://sandcastle.co) website!",
   "main": "index.js",
   "scripts": {
-    "start": "webpack & jekyll serve"
+    "start": "webpack -p & jekyll serve"
   },
   "repository": {
     "type": "git",
