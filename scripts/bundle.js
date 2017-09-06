@@ -69,24 +69,48 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__colors_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__load_animation_js__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__card_js__ = __webpack_require__(7);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__load_animation_js__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__card_js__ = __webpack_require__(5);
 
 
 
 window.onload = function() {
 
-  __WEBPACK_IMPORTED_MODULE_1__load_animation_js__["a" /* default */].start();
-  __WEBPACK_IMPORTED_MODULE_2__card_js__["a" /* default */].init();
+  __WEBPACK_IMPORTED_MODULE_0__load_animation_js__["a" /* default */].start();
+  __WEBPACK_IMPORTED_MODULE_1__card_js__["a" /* default */].init();
 
 }
 
 
 /***/ }),
-/* 1 */
+/* 1 */,
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_gsap__);
+
+
+var loadAnimation = {
+  start: function() {
+    var tl = new __WEBPACK_IMPORTED_MODULE_0_gsap__["TimelineLite"]();
+    var coverPage = document.getElementById('cover-page');
+    var cards = document.getElementsByClassName('hover-3d');
+    var cardsContent = document.getElementsByClassName('hover-3d-content');
+    var logo = document.getElementById('logo');
+
+    tl.fromTo(logo, 1.8, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut});
+    tl.fromTo(cards, .3, {opacity: 0}, {opacity: 1});
+    tl.staggerFromTo(cardsContent, 1, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut}, 0.25);
+  }
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (loadAnimation);
+
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -8015,10 +8039,10 @@ if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); } //necessary in case Tween
 		_tickerActive = false; //ensures that the first official animation forces a ticker.tick() to update the time when it is instantiated
 
 })((typeof(module) !== "undefined" && module.exports && typeof(global) !== "undefined") ? global : this || window, "TweenMax");
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 2 */
+/* 4 */
 /***/ (function(module, exports) {
 
 var g;
@@ -8045,51 +8069,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  grayscale: function(scale) {
-    return 'rgba(0,0,0,' + scale + ')';
-  },
-  randScale: function(r,g,b) {
-    var opacity = Math.random() * (.7 - .3) + .3;
-    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
-  }
-}
-
-
-/***/ }),
-/* 4 */,
 /* 5 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_gsap__);
-
-
-var loadAnimation = {
-  start: function() {
-    var tl = new __WEBPACK_IMPORTED_MODULE_0_gsap__["TimelineLite"]();
-    var coverPage = document.getElementById('cover-page');
-    var cards = document.getElementsByClassName('hover-3d');
-    var cardsContent = document.getElementsByClassName('hover-3d-content');
-    var logo = document.getElementById('logo');
-
-    tl.staggerFromTo(cards, .5, {opacity: 0}, {opacity: 1}, 0.1)
-      .staggerFromTo(cardsContent, .5, {opacity: 0}, {opacity: 1}, 0.1)
-      .fromTo(coverPage, .5, {height: 0}, {height: '60vh'})
-      .fromTo(logo, .5, {opacity: 0}, {opacity: 1});
-  }
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (loadAnimation);
-
-
-/***/ }),
-/* 6 */,
-/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
