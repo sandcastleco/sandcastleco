@@ -10,17 +10,3 @@
   -webkit-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
 }
-<<<<<<< HEAD
-.hover-3d img {
-  transition: transform 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.hover-3d:hover img {
-  transform: scale3d(1.1);
-  transition: transform .8s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.hover-3d:hover .card-caption {
-  opacity: 1;
-  transition: opacity 0.9s;
-}
-=======
->>>>>>> page-load
