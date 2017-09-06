@@ -2,6 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import 'https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css';
+@import 'https://use.typekit.net/ulj8ban.css';
 @import 'colors';
 @import 'global';
 @import 'typography';
