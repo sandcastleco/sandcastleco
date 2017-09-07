@@ -51,7 +51,7 @@
 
 - name: Foster Douglas
   description: Foster's design portfolio.
-  mainLink: http://foster-douglas.com/portfolio
+  mainLink: http://foster-douglas.com/projects
   image: fuzz.jpg
   background: fuzz-black
   textColor: white
