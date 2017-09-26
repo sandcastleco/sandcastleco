@@ -5,6 +5,6 @@ Sandcastle is [Kevin McGillivray](http://twitter.com/kev_mcg){: .bg-light-gray.o
 
 We've been collaborators for over a decade, and everything we've done together has shared the same overall drive: practice creativity by making meaningful things, help other people grow their creative skills, never stop learning, and make the world a more beautiful and conscious place. We're a hands-on duo, we work on projects that we're genuinely excited about, and we're devoted to understanding your vision and helping you realize it.
 
-Foster is based in Oakland, California, and his most recent favorite coffee is from [Equator](https://www.equatorcoffees.com){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="_blank" }. Kevin represents Sandcastle's hertiage in Green Bay, Wisconsin and has been recently obsessed with a Pure Bud Golden Snail tea from [What-Cha](http://what-cha.com/china-yunnan-pure-bud-golden-snail-black-tea/){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="_blank" }. Keep an eye out here for our upcoming coffee and tea blog!
+Foster is based in Oakland, California, and his most recent favorite coffee is from [Equator](https://www.equatorcoffees.com){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="_blank" }. Kevin represents Sandcastle's heritage in Green Bay, Wisconsin and has been recently obsessed with Nokcha from [Postcard Teas](http://www.postcardteas.com){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="_blank" }. Keep an eye out here for our upcoming coffee and tea blog!
 
 <div class="pt3">{% include social-links.html %}</div>
