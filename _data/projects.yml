@@ -52,8 +52,8 @@
 - name: Foster Douglas
   description: Foster's design portfolio.
   mainLink: http://foster-douglas.com/projects
-  image: fuzz.jpg
-  background: fuzz-black
+  image: fuzz.gif
+  background: fuzz-grey
   textColor: white
 
 - name: Wisconsin Refugees
