@@ -3,9 +3,6 @@
   {% for project in site.data.projects %}
     <a href="{{ project.mainLink }}" target="_blank" class="card hover-3d db pa3 {% if project.background %}bg-{{ project.background }}{% endif %} link">
       <img class="hover-3d-content o-0 db mw5 w-100 center" src="/img/{{ project.image }}" alt="{{ project.name }}">
-      <!-- <div class="card-caption border-box pa3 lh-copy w-100 {% if project.theme == 'light' %}bg-gradient-1 {{ project.textColor }}{% else %}white{% endif %}">
-        <p class="mv0 f6 tc">{{ project.description }}</p>
-      </div> -->
     </a>
   {% endfor %}
   </div>
