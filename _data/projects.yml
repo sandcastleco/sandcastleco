@@ -1,3 +1,17 @@
+- name: Chimney Fire Coffee
+  mainLink: http://chimneyfirecoffee.com
+  image: chimney-fire-coffee.png
+  background: bean-green
+
+- name: Alicia Slusarek Nutrition
+  mainLink: http://nutritionwithalicia.com
+  image: alicia-slusarek.png
+
+- name: Trading Post Market
+  mainLink: http://tradingpost.market
+  background: winterberry
+  image: trading-post-market.png
+
 - name: Mary and Bill
   description: A documentary film about 90-year-old athletes.
   mainLink: http://maryandbillfilm.com
