@@ -1,88 +1,88 @@
 - name: Chimney Fire Coffee
-  mainLink: http://chimneyfirecoffee.com
+  link: http://chimneyfirecoffee.com
   image: chimney-fire-coffee.png
   background: bean-green
 
 - name: Alicia Slusarek Nutrition
-  mainLink: http://nutritionwithalicia.com
+  link: http://nutritionwithalicia.com
   image: alicia-slusarek.png
 
 - name: Trading Post Market
-  mainLink: http://tradingpost.market
+  link: http://tradingpost.market
   background: winterberry
   image: trading-post-market.png
 
 - name: Mary and Bill
-  mainLink: http://maryandbillfilm.com
+  link: http://maryandbillfilm.com
   image: mary-and-bill.jpg
   textColor: mb-red
   theme: light
 
 - name: UntitledTown Book and Author Festival
-  mainLink: http://138.197.70.90
+  link: http://138.197.70.90
   image: untitledtown.png
   background: parchment
   textColor: black
   theme: light
 
 - name: St Norbert College Badges
-  mainLink: http://badges.snc.edu
+  link: http://badges.snc.edu
   image: st-norbert-college-logo.jpg
   textColor: snc-green
   theme: light
 
 - name: Code Convoy
-  mainLink: http://codeconvoy.com
+  link: http://codeconvoy.com
   image: code-convoy.jpg
   background: sc-blue
   textColor: white
 
 - name: CommunityConnect
-  mainLink: http://civictechnologies.com
+  link: http://civictechnologies.com
   image: communityconnect.png
   textColor: cc-blue
   theme: light
 
 - name: Kat Boogaard
-  mainLink: http://katboogaard.com
+  link: http://katboogaard.com
   image: kat-logo.png
   background: kat-sorbet
   textColor: white
 
 - name: Andrew Napier
-  mainLink: http://andrewnapier.com
+  link: http://andrewnapier.com
   image: andrew-logo.png
   background: white
   textColor: black
   theme: light
 
 - name: Foster Douglas
-  mainLink: http://foster-douglas.com/projects
+  link: http://foster-douglas.com/projects
   image: fuzz.gif
   background: fuzz-grey
   textColor: white
 
 - name: Wisconsin Refugees
-  mainLink: https://kmcgillivray.github.io/wisconsin-refugees/
+  link: https://kmcgillivray.github.io/wisconsin-refugees/
   image: wisconsin-refugees.jpg
   textColor: dark-blue
   theme: light
 
 - name: Tea Guide
-  mainLink: http://teaguide.co
+  link: http://teaguide.co
   image: tea-guide.jpg
   background: tea-blue
   textColor: white
 
 - name: Kevin McGillivray
-  mainLink: https://www.kevinmcgillivray.net
+  link: https://www.kevinmcgillivray.net
   image: kevin-logo.png
   background: white
   textColor: pink
   theme: light
 
 - name: Daily Game Designs
-  mainLink: http://foster-douglas.com
+  link: http://foster-douglas.com
   image: foster-logo.png
   background: foster-orange
   textColor: white

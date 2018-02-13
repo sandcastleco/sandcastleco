@@ -1,7 +1,7 @@
 <section class="fadeIn">
   <div class="dg-ns grid-33">
   {% for project in site.data.projects %}
-    <a href="{{ project.mainLink }}" target="_blank" class="card hover-3d db pa3 {% if project.background %}bg-{{ project.background }}{% endif %} link">
+    <a href="{{ project.link }}" target="_blank" class="card hover-3d db pa3 {% if project.background %}bg-{{ project.background }}{% endif %} link">
       <img class="hover-3d-content o-0 db mw5 w-100 center" src="/img/{{ project.image }}" alt="{{ project.name }}">
     </a>
   {% endfor %}
