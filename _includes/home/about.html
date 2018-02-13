@@ -1,14 +1,14 @@
-<section class="ph3 ph6-l pv5 mw6 mw9-l center gray lh-copy cf">
+<section class="pv5 mw6 mw8-l center gray lh-copy dg-ns grid-50 grid-gap-3">
 
-  <div class="fl-l w-50-l pr4-l">
+  <div class="mw7 center">
     {% capture about %}{% include about.md %}{% endcapture %}
     {{ about | markdownify }}
   </div>
 
-  <div class="fl-l w-50-l pl4-l">
+  <div class="mw7 center">
     {% capture contact %}{% include contact.md %}{% endcapture %}
     {{ contact | markdownify }}
     {% include contact-form.html %}
   </div>
-  
+
 </section>
