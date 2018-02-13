@@ -13,14 +13,12 @@
   image: trading-post-market.png
 
 - name: Mary and Bill
-  description: A documentary film about 90-year-old athletes.
   mainLink: http://maryandbillfilm.com
   image: mary-and-bill.jpg
   textColor: mb-red
   theme: light
 
 - name: UntitledTown Book and Author Festival
-  description: A book and author festival.
   mainLink: http://138.197.70.90
   image: untitledtown.png
   background: parchment
@@ -28,35 +26,30 @@
   theme: light
 
 - name: St Norbert College Badges
-  description: A platform for students to track their achievements.
   mainLink: http://badges.snc.edu
   image: st-norbert-college-logo.jpg
   textColor: snc-green
   theme: light
 
 - name: Code Convoy
-  description: Web development courses and workshops.
   mainLink: http://codeconvoy.com
   image: code-convoy.jpg
   background: sc-blue
   textColor: white
 
 - name: CommunityConnect
-  description: Solutions to help libraries connect with their communities.
   mainLink: http://civictechnologies.com
   image: communityconnect.png
   textColor: cc-blue
   theme: light
 
 - name: Kat Boogaard
-  description: Creative writer and life guru.
   mainLink: http://katboogaard.com
   image: kat-logo.png
   background: kat-sorbet
   textColor: white
 
 - name: Andrew Napier
-  description: Filmmaker and generally wacky guy.
   mainLink: http://andrewnapier.com
   image: andrew-logo.png
   background: white
@@ -64,28 +57,24 @@
   theme: light
 
 - name: Foster Douglas
-  description: Foster's design portfolio.
   mainLink: http://foster-douglas.com/projects
   image: fuzz.gif
   background: fuzz-grey
   textColor: white
 
 - name: Wisconsin Refugees
-  description: A data visualization exploring refugees data in Wisconsin.
   mainLink: https://kmcgillivray.github.io/wisconsin-refugees/
   image: wisconsin-refugees.jpg
   textColor: dark-blue
   theme: light
 
 - name: Tea Guide
-  description: A mini guide to the world's favorite cup.
   mainLink: http://teaguide.co
   image: tea-guide.jpg
   background: tea-blue
   textColor: white
 
 - name: Kevin McGillivray
-  description: Kevin's techno-hub.
   mainLink: https://www.kevinmcgillivray.net
   image: kevin-logo.png
   background: white
@@ -93,7 +82,6 @@
   theme: light
 
 - name: Daily Game Designs
-  description: A daily game design journal.
   mainLink: http://foster-douglas.com
   image: foster-logo.png
   background: foster-orange
