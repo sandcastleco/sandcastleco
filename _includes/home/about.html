@@ -1,12 +1,12 @@
 <section class="ph3 pv5 mw6 mw8-l center gray lh-copy dg-ns grid-50 grid-gap-3">
 
   <div class="mw7 center">
-    {% capture about %}{% include about.md %}{% endcapture %}
+    {% capture about %}{% include home/about.md %}{% endcapture %}
     {{ about | markdownify }}
   </div>
 
   <div class="mw7 center">
-    {% capture contact %}{% include contact.md %}{% endcapture %}
+    {% capture contact %}{% include home/contact.md %}{% endcapture %}
     {{ contact | markdownify }}
     {% include contact-form.html %}
   </div>
