@@ -1,2 +1,3 @@
-{% for website in site.data.contact.social %}<a class="mr2 fill-ocean no-underline dim-2" href="{{ website.link }}" target="_blank"><img class="w2" src="/img/{{ website.icon }}" alt="{{ website.name }}"> <span class="sr-only">{{ website.name }}</span></a>
+{% for website in site.data.contact.social %}
+  <a class="mr2 fill-ocean no-underline dim-2" href="{{ website.link }}" target="_blank"><img class="w2" src="/img/{{ website.icon }}" alt="{{ website.name }}"><span class="sr-only">{{ website.name }}</span></a>
 {% endfor %}

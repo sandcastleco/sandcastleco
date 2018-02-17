@@ -20,11 +20,3 @@
     transform: translateY(-50%);
   }
 }
-.b-and-w {
-  filter: grayscale(100%);
-  transition: filter 1s;
-}
-.hover-color:hover {
-  filter: grayscale(0);
-  transition: filter 1s;
-}
