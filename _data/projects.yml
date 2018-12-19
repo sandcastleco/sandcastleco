@@ -3,9 +3,57 @@
   image: chimney-fire-coffee.png
   background: bean-green
 
+- name: Cura Coffeehouse
+  link: http://instagram.com/curacoffeehouse
+  image: cura.jpg
+  background: cura-white
+
+- name: Food Passion Project
+  link: http://book.foodpassionproject.com
+  image: fpp.jpg
+  background: passion-pink
+
 - name: Alicia Slusarek Nutrition
   link: http://nutritionwithalicia.com
   image: alicia-slusarek.png
+
+- name: Daily Game Designs
+  link: http://foster-douglas.com
+  image: foster-logo.png
+  background: foster-orange
+  textColor: white
+
+- name: Foster Douglas
+  link: http://foster-douglas.com/projects/fuzz
+  image: fuzz.gif
+  background: white
+  textColor: white
+
+- name: Code Convoy
+  link: http://codeconvoy.com
+  image: code-convoy.jpg
+  background: sc-blue
+  textColor: white
+
+- name: Andrew Napier
+  link: http://andrewnapier.com
+  image: andrew-logo.png
+  background: white
+  textColor: black
+  theme: light
+
+- name: Kat Boogaard
+  link: http://katboogaard.com
+  image: kat-logo.png
+  background: kat-sorbet
+  textColor: white
+
+- name: Kevin McGillivray
+  link: https://www.kevinmcgillivray.net
+  image: kevin-logo.png
+  background: white
+  textColor: pink
+  theme: light
 
 - name: Trading Post Market
   link: http://tradingpost.market
@@ -17,72 +65,3 @@
   image: mary-and-bill.jpg
   textColor: mb-red
   theme: light
-
-- name: UntitledTown Book and Author Festival
-  link: http://138.197.70.90
-  image: untitledtown.png
-  background: parchment
-  textColor: black
-  theme: light
-
-- name: St Norbert College Badges
-  link: http://badges.snc.edu
-  image: st-norbert-college-logo.jpg
-  textColor: snc-green
-  theme: light
-
-- name: Code Convoy
-  link: http://codeconvoy.com
-  image: code-convoy.jpg
-  background: sc-blue
-  textColor: white
-
-- name: CommunityConnect
-  link: http://civictechnologies.com
-  image: communityconnect.png
-  textColor: cc-blue
-  theme: light
-
-- name: Kat Boogaard
-  link: http://katboogaard.com
-  image: kat-logo.png
-  background: kat-sorbet
-  textColor: white
-
-- name: Andrew Napier
-  link: http://andrewnapier.com
-  image: andrew-logo.png
-  background: white
-  textColor: black
-  theme: light
-
-- name: Foster Douglas
-  link: http://foster-douglas.com/projects
-  image: fuzz.gif
-  background: fuzz-grey
-  textColor: white
-
-- name: Wisconsin Refugees
-  link: https://kmcgillivray.github.io/wisconsin-refugees/
-  image: wisconsin-refugees.jpg
-  textColor: dark-blue
-  theme: light
-
-- name: Tea Guide
-  link: http://teaguide.co
-  image: tea-guide.jpg
-  background: tea-blue
-  textColor: white
-
-- name: Kevin McGillivray
-  link: https://www.kevinmcgillivray.net
-  image: kevin-logo.png
-  background: white
-  textColor: pink
-  theme: light
-
-- name: Daily Game Designs
-  link: http://foster-douglas.com
-  image: foster-logo.png
-  background: foster-orange
-  textColor: white
