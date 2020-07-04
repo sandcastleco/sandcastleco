@@ -1,39 +1,38 @@
-- name: Chimney Fire Coffee
-  link: http://chimneyfirecoffee.com
-  image: chimney-fire-coffee.png
-  background: bean-green
-
-- name: Cura Coffeehouse
-  link: http://instagram.com/curacoffeehouse
-  image: cura.jpg
-  background: cura-white
-
-- name: Food Passion Project
-  link: http://book.foodpassionproject.com
-  image: fpp.jpg
-  background: passion-pink
-
-- name: Alicia Slusarek Nutrition
-  link: http://nutritionwithalicia.com
-  image: alicia-slusarek.png
-
 - name: Daily Game Designs
   link: http://foster-douglas.com
   image: foster-logo.png
   background: foster-orange
   textColor: white
 
-- name: Foster Douglas
-  link: http://foster-douglas.com/projects/fuzz
+- name: Cura Coffeehouse
+  link: http://instagram.com/curacoffeehouse
+  image: cura.jpg
+  background: cura-white
+
+- name: SurgeROI
+  link: https://surgeroi.io
+  image: surge.png
+  background: surge-disco
+
+- name: E-By Design
+  link: http://e-bydesign.ca
+  image: eby.png
+
+- name: The Mask Podcast
+  link: https://themaskpodcast.com
+  image: mask.png
+  background: mask-grey
+
+- name: Fuzz HD Ultimate Cyclone Edition
+  link: https://everydaylemonade.itch.io/fuzz
   image: fuzz.gif
   background: white
   textColor: white
 
-- name: Code Convoy
-  link: http://codeconvoy.com
-  image: code-convoy.jpg
-  background: sc-blue
-  textColor: white
+- name: Chimney Fire Coffee
+  link: http://chimneyfirecoffee.com
+  image: chimney-fire-coffee.png
+  background: bean-green
 
 - name: Andrew Napier
   link: http://andrewnapier.com
@@ -42,23 +41,20 @@
   textColor: black
   theme: light
 
-- name: Kat Boogaard
-  link: http://katboogaard.com
-  image: kat-logo.png
-  background: kat-sorbet
-  textColor: white
+- name: Food Passion Project
+  link: https://sandcastleco.github.io/food-passion-project/
+  image: fpp.jpg
+  background: passion-pink
 
-- name: Kevin McGillivray
-  link: https://www.kevinmcgillivray.net
-  image: kevin-logo.png
+- name: Cheekface Music
+  link: http://cheekfacemusic.com
+  image: cheekface.png
   background: white
-  textColor: pink
-  theme: light
 
-- name: Trading Post Market
-  link: http://tradingpost.market
-  background: winterberry
-  image: trading-post-market.png
+- name: Green Bay Preble Optimist Club
+  link: https://greenbayprebleoptimist.org/about-us/
+  image: optimist.png
+  background: optimist-blue
 
 - name: Mary and Bill
   link: http://maryandbillfilm.com
