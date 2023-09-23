@@ -1,11 +1,17 @@
 <section class="dg-ns grid-33">
-
   {% for project in site.data.projects %}
 
-    <a href="{{ project.link }}" target="_blank" class="hover-3d db relative pa3 bg-{{ project.background | default: 'white' }}">
-      <img class="hover-3d-content db mw5 w-100 o-0 center" src="/img/{{ project.image }}" alt="{{ project.name }}">
-    </a>
+  <a
+    href="{{ project.link | default: '#' }}"
+    target="_blank"
+    class="hover-3d db relative pa3 bg-{{ project.background | default: 'white' }}"
+  >
+    <img
+      class="hover-3d-content db mw5 w-100 o-0 center"
+      src="/img/{{ project.image }}"
+      alt="{{ project.name }}"
+    />
+  </a>
 
   {% endfor %}
-
 </section>
