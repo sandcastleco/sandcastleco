@@ -1,8 +1,7 @@
-- name: Daily Game Designs
+- name: Foster Douglas
   link: http://foster-douglas.com
-  image: foster-logo.png
-  background: foster-orange
-  textColor: white
+  image: foster-slash.png
+  background: foster-gradient
 
 - name: Cura Coffeehouse
   link: http://instagram.com/curacoffeehouse
@@ -18,31 +17,28 @@
   link: http://e-bydesign.ca
   image: eby.png
 
-- name: The Mask Podcast
-  link: https://themaskpodcast.com
-  image: mask.png
-  background: mask-grey
-
-- name: Fuzz HD Ultimate Cyclone Edition
-  link: https://everydaylemonade.itch.io/fuzz
-  image: fuzz.gif
-  background: white
-  textColor: white
-
 - name: Chimney Fire Coffee
   link: http://chimneyfirecoffee.com
   image: chimney-fire-coffee.png
   background: bean-green
 
+- name: Fuzz HD Ultimate Cyclone Edition
+  link: https://everydaylemonade.itch.io/fuzz
+  image: fuzz.gif
+  background: white
+
+- name: Everyday Lemonade
+  link: https://everydaylemonade.itch.io/
+  image: everyday-lemonade.png
+  background: everyday-lemonade
+
 - name: Andrew Napier
   link: http://andrewnapier.com
   image: andrew-logo.png
   background: white
-  textColor: black
-  theme: light
 
 - name: Food Passion Project
-  link: https://sandcastleco.github.io/food-passion-project/
+  link: https://www.amazon.com/Food-Passion-Project-Repairing-Relationship/dp/1732210705
   image: fpp.jpg
   background: passion-pink
 
@@ -51,13 +47,11 @@
   image: cheekface.png
   background: white
 
-- name: Green Bay Preble Optimist Club
-  link: https://greenbayprebleoptimist.org/about-us/
-  image: optimist.png
-  background: optimist-blue
+- name: The Mask Podcast
+  link: https://podcasts.apple.com/us/podcast/the-mask-podcast/id1508765398
+  image: mask.png
+  background: mask-grey
 
-- name: Mary and Bill
-  link: http://maryandbillfilm.com
-  image: mary-and-bill.jpg
-  textColor: mb-red
-  theme: light
+- name: TRUE Wellness
+  image: true-wellness.png
+  background: white

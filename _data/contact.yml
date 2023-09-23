@@ -1,11 +1,11 @@
 social:
   - name: Twitter
-    link: 'http://twitter.com/sandcastleco'
-    icon: 'icons/twitter.svg'
+    link: "https://twitter.com/_fosterdouglas"
+    icon: "icons/twitter.svg"
   - name: Instagram
-    link: 'http://instagram.com/sandcastleco'
-    icon: 'icons/instagram.svg'
+    link: "http://instagram.com/sandcastleco"
+    icon: "icons/instagram.svg"
   - name: GitHub
-    link: 'http://github.com/sandcastleco'
-    icon: 'icons/github.svg'
-email: sandcastle@sandcastle.co
+    link: "http://github.com/sandcastleco"
+    icon: "icons/github.svg"
+email: foster@sandcastle.co
