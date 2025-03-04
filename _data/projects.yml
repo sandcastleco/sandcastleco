@@ -4,18 +4,18 @@
   background: foster-gradient
 
 - name: Cura Coffeehouse
-  link: http://instagram.com/curacoffeehouse
+  link: https://www.instagram.com/curacoffeehouse/
   image: cura.png
   background: cura-white
 
 - name: SurgeROI
-  link: https://surgeroi.io
+  link: https://www.linkedin.com/company/surgeroi-io/
   image: surge.png
   background: surge-disco
 
-- name: E-By Design
-  link: http://e-bydesign.ca
-  image: eby.png
+- name: MenuRx
+  link: https://surgeroi.io
+  image: menurx.png
 
 - name: Chimney Fire Coffee
   link: http://chimneyfirecoffee.com
@@ -32,19 +32,27 @@
   image: everyday-lemonade.png
   background: everyday-lemonade
 
+- name: E-By Design
+  link: http://e-bydesign.ca
+  image: eby.png
+
+- name: Cafen.
+  link: https://www.instagram.com/cafenspecialitycoffee/
+  image: cafen.png
+  background: cafen
+
 - name: Andrew Napier
   link: http://andrewnapier.com
   image: andrew-logo.png
   background: white
 
-- name: Food Passion Project
-  link: https://www.amazon.com/Food-Passion-Project-Repairing-Relationship/dp/1732210705
-  image: fpp.jpg
-  background: passion-pink
+- name: Luke Yankee
+  image: luke-yankee.png
+  background: luke-yankee
 
-- name: Cheekface Music
-  link: http://cheekfacemusic.com
-  image: cheekface.png
+- name: Fuzz HD Ultimate Cyclone Edition
+  link: https://everydaylemonade.itch.io/fuzz
+  image: fuzz.gif
   background: white
 
 - name: The Mask Podcast
@@ -52,7 +60,12 @@
   image: mask.png
   background: mask-grey
 
-- name: Fuzz HD Ultimate Cyclone Edition
-  link: https://everydaylemonade.itch.io/fuzz
-  image: fuzz.gif
-  background: white
+- name: Cheekface Music
+  link: https://cheekface.merchtable.com/
+  image: cheekface.png
+  background: white  
+
+- name: Food Passion Project
+  link: https://www.amazon.com/Food-Passion-Project-Repairing-Relationship/dp/1732210705
+  image: fpp.jpg
+  background: passion-pink

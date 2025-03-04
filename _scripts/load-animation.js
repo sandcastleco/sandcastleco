@@ -8,9 +8,9 @@ var loadAnimation = {
     var cardsContent = document.getElementsByClassName('hover-3d-content');
     var logo = document.getElementById('logo');
 
-    tl.fromTo(logo, 1.8, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut});
-    tl.fromTo(cards, .3, {opacity: 0}, {opacity: 1});
-    tl.staggerFromTo(cardsContent, 1, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut}, 0.25);
+    tl.fromTo(logo, 0.8, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut}, 0.2);
+    tl.fromTo(cards, .2, {opacity: 0}, {opacity: 1}, 0.8);
+    tl.staggerFromTo(cardsContent, 0.8, {opacity: 0}, {opacity: 1, ease: Linear.easeInOut}, 0.15);
   }
 };
 
