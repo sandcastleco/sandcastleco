@@ -9,12 +9,11 @@
   background: cura-white
 
 - name: SurgeROI
-  link: https://www.linkedin.com/company/surgeroi-io/
+  link: https://surgeroi.site
   image: surge.png
   background: surge-disco
 
 - name: MenuRx
-  link: https://surgeroi.io
   image: menurx.png
 
 - name: Chimney Fire Coffee
@@ -36,10 +35,9 @@
   link: http://e-bydesign.ca
   image: eby.png
 
-- name: Cafen.
-  link: https://www.instagram.com/cafenspecialitycoffee/
-  image: cafen.png
-  background: cafen
+- name: Pigeon
+  image: pigeon.png
+  background: pigeon
 
 - name: Andrew Napier
   link: http://andrewnapier.com
@@ -55,10 +53,10 @@
   image: fuzz.gif
   background: white
 
-- name: The Mask Podcast
-  link: https://podcasts.apple.com/us/podcast/the-mask-podcast/id1508765398
-  image: mask.png
-  background: mask-grey
+- name: Cafen.
+  link: https://www.instagram.com/cafenspecialitycoffee/
+  image: cafen.png
+  background: cafen
 
 - name: Cheekface Music
   link: https://cheekface.merchtable.com/

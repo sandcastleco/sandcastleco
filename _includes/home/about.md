@@ -5,4 +5,4 @@ Sandcastle is a creative studio by [Foster Douglas](https://www.instagram.com/fo
 
 Our strive: practice creativity by making meaningful expressions, help other people grow their creative skills, keep learning, stay humble, and make the world a more beautiful and conscious place. We're hands-on with projects that we're genuinely excited about, and devote ourselves to understanding the communities around us.
 
-Foster is based across Berkeley, California and London, UK. He can be found in the closet kitchen brewing the perfect cup of coffee, and [making other things](https://foster-douglas.com){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="\_blank" }.
+Foster is based across Berkeley, California and London, UK. He can be found in the closest kitchen brewing the perfect cup of coffee, and [making other things](https://foster-douglas.com){: .bg-light-gray.ocean.ph1.no-underline.dim-2 target="\_blank" }.
