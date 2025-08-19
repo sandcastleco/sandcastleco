@@ -1,0 +1,11 @@
+2025-08-13T09:40:41+00:00 CRITICAL Uncaught Error: Class 'Requests_Exception' not found in /opt/bitnami/apps/wordpress/htdocs/wp-includes/Requests/Transport/cURL.php:422
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/Requests/Transport/cURL.php(177): Requests_Transport_cURL->process_response()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-requests.php(381): Requests_Transport_cURL->request()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-http.php(394): Requests::request()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-http.php(608): WP_Http->request()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/http.php(179): WP_Http->post()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mailpoet/lib/WP/Functions.php(598): wp_remote_post()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mailpoet/lib/Cron/CronHelper.php(175): MailPoet\WP\Functions->wpRemotePost()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mailpoet/lib/Cron/CronHelper.php(141): MailPoet\Cron\CronHelper->queryCronU in /opt/bitnami/apps/wordpress/htdocs/wp-includes/Requests/Transport/cURL.php on line 422
+
