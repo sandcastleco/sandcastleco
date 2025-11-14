@@ -9,7 +9,7 @@
   background: cura-white
 
 - name: SurgeROI
-  link: https://surgeroi.site
+  link: https://surgeroi.io
   image: surge.png
   background: surge-disco
 
@@ -47,6 +47,7 @@
 - name: Luke Yankee
   image: luke-yankee.png
   background: luke-yankee
+  link: https://www.lukeyankee.com
 
 - name: Fuzz HD Ultimate Cyclone Edition
   link: https://everydaylemonade.itch.io/fuzz
