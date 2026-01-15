@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sandcastleco/sandcastleco.github.io#readme",
   "dependencies": {
     "babel-runtime": "^6.25.0",
-    "gsap": "^1.20.2",
+    "gsap": "^3.6.0",
     "mo-js": "^0.288.1"
   },
   "devDependencies": {
